@@ -1,0 +1,440 @@
+@text 
+"QUATERNARY  STRUCTURE  --  ASSOCIATION  OF  TWO  IDENTICAL  CHAINS  (HIV  PROTEASE)"
+
+The HIV protease is a protein involved in the proliferation of the virus which causes AIDS.  It is active as a dimer (two chains, also known as subunits) and, as with the coiled coil, the two chains are equivalent (same amino acid sequence).  The structure shown in this kinemage is from PDB file, 5HVP.  The interface between the two chains is where the important chemistry takes place.  Currently, a particular aspect of AIDS research focuses on creating molecules in the laboratory that resemble, but are structurally different from, the molecule which normally binds at the interface.  The goal is to identify a molecule which binds to this 'active' site, but does not allow the chemistry to occur.  Molecules such as these are called 'inhibitors', since they inhibit the proper function of the protein.  Successful inhibitors can subsequently be used as drugs to counter the disease.
+
+The start-up view shows the complete dimer of HIV-1 protease complexed with the acetyl-pepstatin inhibitor.  The flap regions of the protein (res. 44-57) is highlighted, which undergo the most dramatic conformational changes upon inhibitor binding.  The two extended orientations of the inhibitor are included.  These orientations are very similar, but not identical.
+@kinemage 1 
+@caption
+Calpha trace of the HIV protease dimer, showing the active site formed by the interaction of the two subunits.  Click on the 'Flaps' button to identify this portion of the protein.  Turn on 'pepstatin#1' & 'pepstatin#2' to see the positions of the inhibitor in the active site, at the interface of the two subunits.  Select view2 to see how the inhibitor binds through the interface.
+@onewidth
+@zoom 1.00 
+@zslab 200 
+@center 14.861 23.560 3.069 
+@matrix 
+0.144537 0.576861 0.803953 -0.567748 0.713784 -0.410091 -0.810414 -0.397169 0.430680
+@2zoom 1.00 
+@2zslab 200 
+@2center 14.861 23.560 3.069 
+@2matrix 
+0.810822 0.582151 -0.060560 -0.462272 0.700424 0.543793 0.358988 -0.412924 0.837031 
+@group {HIV prot.} 
+@subgroup {subunit 1} dominant
+@vectorlist {ca} color=sky 
+{ca pro a 1}P 29.97 38.922 4.561
+{ca pro a 1}29.97 38.922 4.561
+{ca gln a 2}29.636 36.572 1.593
+{ca ile a 3}28.879 33.06 2.829
+{ca thr a 4}29.513 30.113 0.468
+{ca leu a 5}27.327 27.003 0.728
+{ca trp a 6}29.974 24.273 0.856
+{ca gln a 7}28.869 23.997 4.484
+{ca arg a 8}25.689 24.716 6.375
+{ca pro a 9}25.415 28.48 6.613
+{ca leu a 10}25.452 28.653 10.471
+{ca val a 11}25.97 31.965 12.332
+{ca thr a 12}25.734 32.995 16.032
+{ca ile a 13}22.623 34.85 17.093
+{ca lys a 14}22.119 36.77 20.294
+{ca ile a 15}18.567 36.359 21.484
+{ca gly a 16}17.474 37.557 24.9
+{ca gly a 17}20.968 37.625 26.215
+{ca gln a 18}21.591 34.08 24.961
+{ca leu a 19}24.147 33.356 22.254
+{ca lys a 20}22.914 30.691 19.833
+{ca glu a 21}23.701 29.067 16.562
+{ca ala a 22}21.222 29.19 13.723
+{ca leu a 23}20.835 28.282 10.073
+{ca leu a 24}20.284 31.051 7.5
+{ca asp a 25}17.44 29.314 5.604
+{ca thr a 26}16.178 30.995 2.416
+{ca gly a 27}13.688 28.119 2.289
+{ca ala a 28}11.968 29.134 5.55
+{ca asp a 29}9.261 31.774 5.451
+{ca asp a 30}9.701 32.29 9.183
+{ca thr a 31}12.298 32.063 11.92
+{ca val a 32}11.805 29.029 14.119
+{ca leu a 33}13.809 28.635 17.312
+{ca glu a 34}14.268 25.576 19.49
+{ca glu a 35}12.126 25.524 22.655
+{ca met a 36}12.663 28.435 25.016
+{ca asn a 37}10.858 30.963 27.104
+{ca leu a 38}10.479 34.332 25.463
+{ca pro a 39}8.561 37.096 27.206
+{ca gly a 40}5.318 38.535 25.889
+{ca arg a 41}2.136 36.716 24.968
+{ca trp a 42}2.05 34.133 22.196
+{ca lys a 43}-0.252 32.491 19.704
+{ca pro a 44}-0.173 28.865 18.548
+{ca lys a 45}0.561 28.262 14.915
+{ca met a 46}1.338 25.238 12.847
+{ca ile a 47}4.28 25.251 10.429
+{ca gly a 48}5.051 22.587 7.866
+{ca gly a 49}7.841 21.161 5.884
+{ca ile a 50}9.56 17.928 5.178
+{ca gly a 51}7.984 15.371 7.445
+{ca gly a 52}4.768 17.35 8.081
+{ca phe a 53}3.659 19.944 10.621
+{ca ile a 54}4.823 20.962 14.088
+{ca lys a 55}2.863 23.268 16.477
+{ca val a 56}4.892 26.333 17.57
+{ca arg a 57}4.231 29.416 19.741
+{ca gln a 58}4.457 32.656 17.734
+{ca tyr a 59}5.965 35.761 19.406
+{ca asp a 60}5.773 39.112 17.623
+{ca gln a 61}8.38 41.814 17.473
+{ca ile a 62}11.29 39.938 19.069
+{ca leu a 63}14.757 41.514 18.644
+{ca ile a 64}17.535 39.224 17.355
+{ca glu a 65}21.051 40.198 16.396
+{ca ile a 66}22.213 38.125 13.461
+{ca cys a 67}25.956 38.362 13.059
+{ca gly a 68}25.925 41.684 14.855
+{ca his a 69}23.01 43.242 12.972
+{ca lys a 70}19.706 43.879 14.709
+{ca ala a 71}16.433 42.63 13.359
+{ca ile a 72}12.865 42.73 14.707
+{ca gly a 73}10.281 40.156 13.675
+{ca thr a 74}8.072 37.183 14.441
+{ca val a 75}9.871 34.31 16.095
+{ca leu a 76}8.234 30.857 16.343
+{ca val a 77}9.487 28.475 19.069
+{ca gly a 78}8.826 24.747 18.832
+{ca pro a 79}10.284 21.266 18.571
+{ca thr a 80}12.617 22.212 15.726
+{ca pro a 81}15.775 20.159 15.164
+{ca val a 82}17.847 23.315 14.599
+{ca asn a 83}17.457 27.057 15.086
+{ca ile a 84}16.429 28.575 11.787
+{ca ile a 85}16.625 32.153 10.586
+{ca gly a 86}13.908 32.611 7.947
+{ca arg a 87}13.09 35.152 5.233
+{ca asn a 88}11.249 37.435 7.675
+{ca leu a 89}14.55 38.372 9.439
+{ca leu a 90}16.951 37.736 6.539
+{ca thr a 91}15.383 40.593 4.616
+{ca gln a 92}15.952 42.771 7.692
+{ca ile a 93}19.718 42.404 7.594
+{ca gly a 94}19.906 42.92 3.781
+{ca cys a 95}20.463 39.289 2.946
+{ca thr a 96}20.506 38.362 -0.735
+{ca leu a 97}21.255 35.231 -2.813
+{ca asn a 98}23.596 35.908 -5.72
+{ca phe a 99}24.853 33.899 -8.704
+@vectorlist {res. 44-57} nobutton color=bluetint master= {Flaps} off
+{ca pro a 44}P -0.173 28.865 18.548
+{ca lys a 45}0.561 28.262 14.915
+{ca met a 46}1.338 25.238 12.847
+{ca ile a 47}4.28 25.251 10.429
+{ca gly a 48}5.051 22.587 7.866
+{ca gly a 49}7.841 21.161 5.884
+{ca ile a 50}9.56 17.928 5.178
+{ca gly a 51}7.984 15.371 7.445
+{ca gly a 52}4.768 17.35 8.081
+{ca phe a 53}3.659 19.944 10.621
+{ca ile a 54}4.823 20.962 14.088
+{ca lys a 55}2.863 23.268 16.477
+{ca val a 56}4.892 26.333 17.57
+{ca arg a 57}4.231 29.416 19.741
+@subgroup {subunit 2} dominant
+@vectorlist {ca} color=sea 
+{ca pro b 201}P 21.291 37.75 -10.621
+{ca pro b 201}21.291 37.75 -10.621
+{ca gln b 202}20.862 38.982 -7.067
+{ca ile b 203}17.737 37.596 -5.313
+{ca thr b 204}16.034 39.393 -2.396
+{ca leu b 205}14.01 37.486 0.217
+{ca trp b 206}10.807 39.547 0.342
+{ca gln b 207}9.15 36.718 -1.554
+{ca arg b 208}10.075 32.995 -1.649
+{ca pro b 209}13.131 32.692 -3.869
+{ca leu b 210}11.389 30.706 -6.67
+{ca val b 211}13.269 29.966 -9.894
+{ca thr b 212}12.46 28.034 -13.074
+{ca ile b 213}14.464 24.801 -13.46
+{ca lys b 214}14.488 22.629 -16.588
+{ca ile b 215}14.64 18.875 -15.942
+{ca gly b 216}13.842 16.204 -18.525
+{ca gly b 217}13.036 18.963 -21.067
+{ca gln b 218}10.298 20.088 -18.632
+{ca leu b 219}10.09 23.467 -16.821
+{ca lys b 220}9.348 23.442 -13.057
+{ca glu b 221}9.509 26.001 -10.219
+{ca ala b 222}11.895 25.302 -7.362
+{ca leu b 223}12.932 27.168 -4.244
+{ca leu b 224}16.64 28.062 -3.746
+{ca asp b 225}17.028 26.757 -0.186
+{ca thr b 226}20.187 27.411 1.776
+{ca gly b 227}18.755 25.434 4.684
+{ca ala b 228}18.737 22.27 2.524
+{ca asp b 229}21.787 20.051 2.249
+{ca asp b 230}20.149 18.183 -0.639
+{ca thr b 231}17.934 18.812 -3.659
+{ca val b 232}14.395 17.271 -3.278
+{ca leu b 233}11.882 17.355 -6.116
+{ca glu b 234}8.221 16.368 -5.973
+{ca glu b 235}7.358 12.951 -7.398
+{ca met b 236}8.524 12.673 -11.
+{ca asn b 237}9.756 10.098 -13.501
+{ca leu b 238}13.572 10.088 -13.416
+{ca pro b 239}15.951 7.839 -15.346
+{ca gly b 240}17.977 5.014 -13.892
+{ca arg b 241}18.171 3.241 -10.546
+{ca trp b 242}17.463 4.984 -7.284
+{ca lys b 243}18.822 4.148 -3.878
+{ca pro b 244}17.101 4.691 -0.524
+{ca lys b 245}17.784 7.822 1.533
+{ca met b 246}16.269 9.176 4.751
+{ca ile b 247}16.1 12.945 5.281
+{ca gly b 248}15.032 15.081 8.283
+{ca gly b 249}12.815 18.171 8.034
+{ca ile b 250}10.869 20.371 10.365
+{ca gly b 251}8.255 17.617 10.767
+{ca gly b 252}10.531 14.558 11.158
+{ca phe b 253}12.257 12.066 8.788
+{ca ile b 254}10.842 10.772 5.457
+{ca lys b 255}12.159 8.207 2.952
+{ca val b 256}13.059 9.46 -0.552
+{ca arg b 257}14.435 7.876 -3.695
+{ca gln b 258}17.943 9.039 -4.652
+{ca tyr b 259}19.089 9.511 -8.252
+{ca asp b 260}22.62 10.439 -9.268
+{ca gln b 261}23.924 12.422 -12.124
+{ca ile b 262}20.753 14.275 -12.97
+{ca leu b 263}21.318 17.268 -15.181
+{ca ile b 264}19.256 20.251 -14.092
+{ca glu b 265}19.357 23.781 -15.537
+{ca ile b 266}18.715 26.435 -12.885
+{ca cys b 267}18.218 29.812 -14.54
+{ca gly b 268}20.048 28.483 -17.525
+{ca his b 269}22.873 27.411 -15.211
+{ca lys b 270}23.66 23.754 -15.886
+{ca ala b 271}24.121 21.511 -12.837
+{ca ile b 272}24.693 17.766 -12.693
+{ca gly b 273}24.186 16.007 -9.378
+{ca thr b 274}22.149 14.077 -6.899
+{ca val b 275}18.409 14.69 -6.817
+{ca leu b 276}16.034 13.267 -4.211
+{ca val b 277}12.337 12.599 -4.979
+{ca gly b 278}9.662 12.281 -2.253
+{ca pro b 279}6.791 14.189 -0.673
+{ca thr b 280}7.981 17.775 -0.52
+{ca pro b 281}5.755 20.832 -0.274
+{ca val b 282}7.705 22.255 -3.242
+{ca asn b 283}10.747 21.463 -5.34
+{ca ile b 284}13.809 22.604 -3.373
+{ca ile b 285}17.342 23.176 -4.722
+{ca gly b 286}19.705 22.414 -1.819
+{ca arg b 287}23.345 23.354 -1.253
+{ca asn b 288}24.525 20.384 -3.376
+{ca leu b 289}23.388 22.156 -6.551
+{ca leu b 290}23.578 25.715 -5.191
+{ca thr b 291}27.375 25.416 -4.893
+{ca gln b 292}27.512 24.05 -8.467
+{ca ile b 293}25.954 27.209 -9.91
+{ca gly b 294}28.039 29.424 -7.621
+{ca cys b 295}25.317 30.645 -5.261
+{ca thr b 296}26.332 32.631 -2.186
+{ca leu b 297}24.359 34.385 0.565
+{ca asn b 298}25.505 38.047 0.971
+{ca phe b 299}24.738 40.75 3.567
+@vectorlist {res. 44-57} nobutton color=greentint master= {Flaps} off
+{ca pro b 244}P 17.101 4.691 -0.524
+{ca lys b 245}17.784 7.822 1.533
+{ca met b 246}16.269 9.176 4.751
+{ca ile b 247}16.1 12.945 5.281
+{ca gly b 248}15.032 15.081 8.283
+{ca gly b 249}12.815 18.171 8.034
+{ca ile b 250}10.869 20.371 10.365
+{ca gly b 251}8.255 17.617 10.767
+{ca gly b 252}10.531 14.558 11.158
+{ca phe b 253}12.257 12.066 8.788
+{ca ile b 254}10.842 10.772 5.457
+{ca lys b 255}12.159 8.207 2.952
+{ca val b 256}13.059 9.46 -0.552
+{ca arg b 257}14.435 7.876 -3.695
+@subgroup {inhibitor} nobutton
+@vectorlist {inhibitor} nobutton color=hotpink master= {pepstatin#1} off
+{n 1sta c 4}P 12.126 24.878 5.008
+{n 1sta c 4}12.126 24.878 5.008
+{n 1sta c 4}P 12.126 24.878 5.008
+{ca 1sta c 4}12.846 23.643 4.497
+{ca 1sta c 4}P 12.846 23.643 4.497
+{cb 1sta c 4}12.228 23.417 3.092
+{cb 1sta c 4}P 12.228 23.417 3.092
+{cg 1sta c 4}10.775 23.868 2.843
+{cg 1sta c 4}P 10.775 23.868 2.843
+{cd11sta c 4}10.485 24.264 1.386
+{cg 1sta c 4}P 10.775 23.868 2.843
+{cd21sta c 4}9.706 22.846 3.326
+{ca 1sta c 4}P 12.846 23.643 4.497
+{ch 1sta c 4}14.377 23.783 4.659
+{ch 1sta c 4}P 14.377 23.783 4.659
+{oh 1sta c 4}14.69 25.086 5.214
+{ch 1sta c 4}P 14.377 23.783 4.659
+{cm 1sta c 4}15.073 22.755 5.634
+{cm 1sta c 4}P 15.073 22.755 5.634
+{c 1sta c 4}14.767 21.286 5.304
+{c 1sta c 4}P 14.767 21.286 5.304
+{o 1sta c 4}13.666 20.739 5.524
+{n 1sta c 6}P 17.913 18.389 6.465
+{n 1sta c 6}17.913 18.389 6.465
+{n 1sta c 6}P 17.913 18.389 6.465
+{ca 1sta c 6}19.216 17.934 6.952
+{ca 1sta c 6}P 19.216 17.934 6.952
+{cb 1sta c 6}19.416 18.441 8.425
+{cb 1sta c 6}P 19.416 18.441 8.425
+{cg 1sta c 6}19.492 19.988 8.585
+{cg 1sta c 6}P 19.492 19.988 8.585
+{cd11sta c 6}18.069 20.593 8.553
+{cg 1sta c 6}P 19.492 19.988 8.585
+{cd21sta c 6}20.246 20.404 9.854
+{ca 1sta c 6}P 19.216 17.934 6.952
+{ch 1sta c 6}19.248 16.4 6.717
+{ch 1sta c 6}P 19.248 16.4 6.717
+{oh 1sta c 6}18.083 15.745 7.288
+{ch 1sta c 6}P 19.248 16.4 6.717
+{cm 1sta c 6}19.317 15.994 5.211
+{cm 1sta c 6}P 19.317 15.994 5.211
+{c 1sta c 6}20.347 14.858 5.001
+{c 1sta c 6}P 20.347 14.858 5.001
+{o 1sta c 6}20.936 14.302 5.936
+{c 1sta c 6}P 20.347 14.858 5.001
+{oxt1sta c 6}20.573 14.552 3.703
+@vectorlist {inhibitor} nobutton color=gold master= {pepstatin#2} off
+{n 2sta c 4}P 15.468 22.108 5.234
+{n 2sta c 4}15.468 22.108 5.234
+{n 2sta c 4}P 15.468 22.108 5.234
+{ca 2sta c 4}14.51 22.962 6.01
+{ca 2sta c 4}P 14.51 22.962 6.01
+{cb 2sta c 4}15.243 23.319 7.324
+{cb 2sta c 4}P 15.243 23.319 7.324
+{cg 2sta c 4}15.448 22.213 8.387
+{cg 2sta c 4}P 15.448 22.213 8.387
+{cd12sta c 4}16.666 22.52 9.291
+{cg 2sta c 4}P 15.448 22.213 8.387
+{cd22sta c 4}14.185 21.975 9.242
+{ca 2sta c 4}P 14.51 22.962 6.01
+{ch 2sta c 4}14.126 24.132 5.06
+{ch 2sta c 4}P 14.126 24.132 5.06
+{oh 2sta c 4}14.996 24.019 3.889
+{ch 2sta c 4}P 14.126 24.132 5.06
+{cm 2sta c 4}12.654 24.175 4.554
+{cm 2sta c 4}P 12.654 24.175 4.554
+{c 2sta c 4}11.557 24.225 5.627
+{c 2sta c 4}P 11.557 24.225 5.627
+{o 2sta c 4}11.181 23.263 6.308
+{n 2sta c 6}P 7.475 25.908 5.659
+{n 2sta c 6}7.475 25.908 5.659
+{n 2sta c 6}P 7.475 25.908 5.659
+{ca 2sta c 6}6.456 26.682 4.907
+{ca 2sta c 6}P 6.456 26.682 4.907
+{cb 2sta c 6}6.008 25.836 3.69
+{cb 2sta c 6}P 6.008 25.836 3.69
+{cg 2sta c 6}6.817 26.025 2.369
+{cg 2sta c 6}P 6.817 26.025 2.369
+{cd12sta c 6}8.159 25.237 2.388
+{cg 2sta c 6}P 6.817 26.025 2.369
+{cd22sta c 6}5.967 25.606 1.16
+{ca 2sta c 6}P 6.456 26.682 4.907
+{ch 2sta c 6}5.385 27.134 5.927
+{ch 2sta c 6}P 5.385 27.134 5.927
+{oh 2sta c 6}4.742 25.961 6.471
+{ch 2sta c 6}P 5.385 27.134 5.927
+{cm 2sta c 6}5.908 28.009 7.114
+{cm 2sta c 6}P 5.908 28.009 7.114
+{c 2sta c 6}4.783 28.97 7.59
+{c 2sta c 6}P 4.783 28.97 7.59
+{o 2sta c 6}3.613 28.832 7.209
+{c 2sta c 6}P 4.783 28.97 7.59
+{oxt2sta c 6}5.185 29.974 8.416
+@vectorlist {mc} nobutton color=hotpink master= {pepstatin#1} off
+{c 1ace c 1}P 4.949 27.758 6.793
+{c 1ace c 1}4.949 27.758 6.793
+{o 1ace c 1}4.8 26.678 7.393
+{n 1val c 2}P 5.93 27.841 5.869
+{n 1val c 2}5.93 27.841 5.869
+{ca 1val c 2}6.688 26.574 5.627
+{c 1val c 2}8.183 26.793 5.86
+{o 1val c 2}8.69 27.91 5.675
+{n 1val c 3}P 8.838 25.67 6.185
+{n 1val c 3}8.838 25.67 6.185
+{ca 1val c 3}10.301 25.689 6.434
+{c 1val c 3}10.978 24.553 5.7
+{o 1val c 3}10.569 23.386 5.717
+{n 1ala c 5}P 15.827 20.674 4.766
+{n 1ala c 5}15.827 20.674 4.766
+{ca 1ala c 5}16.227 19.282 5.045
+{c 1ala c 5}17.704 19.162 5.397
+{o 1ala c 5}18.657 19.738 4.855
+{n 1sta c 6} P 17.913 18.389 6.465
+{c 1ala c 5} 17.704 19.162 5.397
+{n 1ala c 5} P 15.827 20.674 4.766
+{c 1sta c 4} 14.767 21.286 5.304
+{n 1sta c 4} P 12.126 24.878 5.008
+{c 1val c 3} 10.978 24.553 5.7
+{n 1val c 3} P 8.838 25.67 6.185
+{c 1val c 2} 8.183 26.793 5.86
+{c 1ace c 1} P 4.949 27.758 6.793
+{n 1val c 2} 5.93 27.841 5.869
+@vectorlist {mc} nobutton color=gold master= {pepstatin#2} off
+{c 2ace c 1}P 19.663 15.657 6.261
+{c 2ace c 1}19.663 15.657 6.261
+{o 2ace c 1}18.768 14.83 6.422
+{n 2val c 2}P 19.579 16.978 6.423
+{n 2val c 2}19.579 16.978 6.423
+{ca 2val c 2}18.393 17.753 6.824
+{c 2val c 2}18.101 18.853 5.793
+{o 2val c 2}18.939 19.56 5.243
+{n 2val c 3}P 16.796 18.974 5.525
+{n 2val c 3}16.796 18.974 5.525
+{ca 2val c 3}16.297 19.938 4.51
+{c 2val c 3}15.234 20.788 5.209
+{o 2val c 3}14.234 20.296 5.765
+{n 2ala c 5}P 10.971 25.421 5.774
+{n 2ala c 5}10.971 25.421 5.774
+{ca 2ala c 5}9.726 25.622 6.544
+{c 2ala c 5}8.709 26.437 5.751
+{o 2ala c 5}8.95 27.538 5.213
+{c 2ace c 1} P 19.663 15.657 6.261
+{n 2val c 2} 19.579 16.978 6.423
+{c 2val c 2} P 18.101 18.853 5.793
+{n 2val c 3} 16.796 18.974 5.525
+{c 2val c 3} P 15.234 20.788 5.209
+{n 2sta c 4} 15.468 22.108 5.234
+{c 2sta c 4} P 11.557 24.225 5.627
+{n 2ala c 5} 10.971 25.421 5.774
+{c 2ala c 5} P 8.709 26.437 5.751
+{n 2sta c 6} 7.475 25.908 5.659
+@vectorlist {sc} nobutton color=hotpink master= {pepstatin#1} off
+{c 1ace c 1}P 4.949 27.758 6.793
+{ch31ace c 1}4.171 29.012 7.116
+{ca 1val c 2}P 6.688 26.574 5.627
+{cb 1val c 2}6.529 26.178 4.139
+{cg11val c 2}7.686 25.256 3.685
+{cb 1val c 2}P 6.529 26.178 4.139
+{cg21val c 2}5.166 25.563 3.805
+{ca 1val c 3}P 10.301 25.689 6.434
+{cb 1val c 3}10.418 25.59 7.983
+{cg11val c 3}11.799 25.185 8.48
+{cb 1val c 3}P 10.418 25.59 7.983
+{cg21val c 3}9.895 26.911 8.621
+{ca 1ala c 5}P 16.227 19.282 5.045
+{cb 1ala c 5}15.855 18.433 3.797
+@vectorlist {sc} nobutton color=gold master= {pepstatin#2} off
+{c 2ace c 1}P 19.663 15.657 6.261
+{ch32ace c 1}21.086 15.17 5.853
+{ca 2val c 2}P 18.393 17.753 6.824
+{cb 2val c 2}18.553 18.354 8.247
+{cg12val c 2}17.633 19.57 8.512
+{cb 2val c 2}P 18.553 18.354 8.247
+{cg22val c 2}18.32 17.314 9.37
+{ca 2val c 3}P 16.297 19.938 4.51
+{cb 2val c 3}15.72 19.142 3.307
+{cg12val c 3}14.739 19.932 2.422
+{cb 2val c 3}P 15.72 19.142 3.307
+{cg22val c 3}16.82 18.531 2.399
+{ca 2ala c 5}P 9.726 25.622 6.544
+{cb 2ala c 5}10.062 26.418 7.834
+<end of file>
+

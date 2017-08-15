@@ -1,0 +1,262 @@
+@text 
+"SECONDARY  STRUCTURE  --  THE  ALPHA-HELIX"
+
+There are two basic structural features that can be found in proteins.  One of these secondary structure elements is the alpha-helix, which is formed by a relatively short stretch of consecutive amino acids within the protein.  Alpha-helices are very common and can be found, usually more than once, in many proteins.  They can contain 4 amino acids to over 40 (the average is 10).  They are held in this spiral shape by hydrogen bonds, which involve the mainchain carbonyl oxygen of residue "i" and the mainchain nitrogen of residue "i+4".  One complete turn in an alpha-helix requires 3.6 residues.
+
+The tendency of a sequence of amino acids to form one structure over another is determined by the types of amino acids in the sequence.  Since proteins fold up in aqueous solution based on the properties described in the amino acid kinemage, the general structure of proteins is one that keeps the majority of hydrophilic amino acids facing out toward the aqueous solution and keeps hydrophobic amino acids facing in toward the core of the protein, away from the water.  This core region is known as the hydrophobic core and is an important feature in protein structure.  Of course, there are proteins found in cell membranes that require a predominance of hydrophobic residues on the exterior, for solubility in this lipid environment.  Most alpha-helices appear at the periphery of proteins, so they usually contain one side of hydrophilic amino acids and one side of hydrophobic, giving them 'amphiphilic' (or amphipathic) character.
+@kinemage 1
+@caption
+The start-up view shows an eleven-residue alpha-helix from the end-on perspective.  Repeatedly click on 'ANIMATE' to highlight the residues in one complete turn of the helix.  Select view2 for a side view of the helix.  Turn on 'Hydrophilic' and 'Hydrophobic' to see the distribution of residues, responsible for the amphiphilic character of the helix.  Click on 'H bonds' to see the hydrogen bonding network.
+@onewidth
+@2viewid {End}
+@zoom 1.08 
+@zslab 412 
+@center -16.469 42.587 24.525 
+@matrix 
+0.376688 -0.756517 -0.534591 0.498370 -0.320959 0.805364 -0.780854 -0.569796 0.256124
+@2viewid {Side}
+@2zoom 1.08 
+@2zslab 412 
+@2center -14.849 38.678 22.646 
+@2matrix 
+ 0.40246 -0.49123  0.77247  0.50671  0.82231  0.25893 -0.76241  0.28721  0.57987
+@group {HELIX}
+@subgroup {Mainchain} dominant
+@vectorlist {mc} color= white 
+{n pro 66}P -20.004 43.576 26.047
+{n pro 66}-20.004 43.576 26.047
+{ca pro 66}-20.359 42.667 24.954
+{c pro 66}-19.289 42.558 23.878
+{o pro 66}-19.057 41.435 23.321
+{c pro 66}P -19.289 42.558 23.878
+{n glu 67}-18.653 43.658 23.512
+{ca glu 67}-17.574 43.705 22.486
+{c glu 67}-16.343 42.973 23.015
+{o glu 67}-15.774 42.127 22.281
+{c glu 67}P -16.343 42.973 23.015
+{n phe 68}-15.9 43.257 24.198
+{ca phe 68}-14.777 42.604 24.913
+{c phe 68}-15.008 41.087 24.996
+{o phe 68}-14.187 40.259 24.573
+{c phe 68}P -15.008 41.087 24.996
+{n leu 69}-16.148 40.767 25.542
+{ca leu 69}-16.624 39.386 25.794
+{c leu 69}-16.543 38.552 24.52
+{o leu 69}-16.079 37.396 24.576
+{c leu 69}P -16.543 38.552 24.52
+{n thr 70}-17.001 39.149 23.424
+{ca thr 70}-17.019 38.495 22.112
+{c thr 70}-15.616 38.433 21.539
+{o thr 70}-15.326 37.414 20.872
+{c thr 70}P -15.616 38.433 21.539
+{n met 71}-14.768 39.402 21.777
+{ca met 71}-13.371 39.368 21.286
+{c met 71}-12.68 38.171 21.989
+{o met 71}-12.071 37.323 21.394
+{c met 71}P -12.68 38.171 21.989
+{n met 72}-12.829 38.198 23.299
+{ca met 72}-12.293 37.28 24.289
+{c met 72}-12.668 35.826 24.011
+{o met 72}-11.787 34.974 24.063
+{c met 72}P -12.668 35.826 24.011
+{n ala 73}-13.922 35.577 23.724
+{ca ala 73}-14.453 34.24 23.434
+{c ala 73}-13.624 33.624 22.303
+{o ala 73}-12.754 32.738 22.557
+{c ala 73}P -13.624 33.624 22.303
+{n arg 74}-13.798 34.1 21.094
+{ca arg 74}-13.068 33.718 19.893
+{c arg 74}-11.58 33.47 20.112
+{o arg 74}-11.047 32.405 19.733
+{c arg 74}P -11.58 33.47 20.112
+{n lys 75}-10.889 34.443 20.688
+{ca lys 75}-9.463 34.351 20.961
+{c lys 75}-9.086 33.314 22.02
+{o lys 75}-7.882 32.94 22.089
+{c lys 75}P -9.086 33.314 22.02
+{n met 76}-10.043 32.886 22.831
+@subgroup {H bonds} nobutton
+@vectorlist {hydrogen bonds} nobutton color= purple master= {H bonds} off
+<2.187>{thr 70 hn} P U -17.347 40.084 23.505
+{pro 66 o} U -18.544 41.03 23.376
+<2.061>{met 71 hn} P U -15.101 40.179 22.311
+{glu 67 o} U -15.572 41.543 22.29
+<1.790>{met 72 hn} P U -13.385 38.951 23.651
+{phe 68 o} U -13.946 39.867 24.296
+<2.047>{ala 73 hn} P U -14.542 36.361 23.706
+{leu 69 o} U -15.618 37.085 24.315
+<2.745>{arg 74 hn} P U -14.509 34.797 21.
+{thr 70 o} U -15.081 36.629 20.91
+<2.206>{lys 75 hn} P U -11.373 35.279 20.946
+{met 71 o} U -11.862 36.71 21.26
+@subgroup {Sidechain} dominant
+@vectorlist {sc} color= cyan 
+{ca pro 66}P -20.359 42.667 24.954
+{cb pro 66}-21.667 43.18 24.373
+{cg pro 66}-22.162 44.237 25.312
+{cd pro 66}-21.019 44.638 26.198
+{n pro 66}P -20.004 43.576 26.047
+{cd pro 66}-21.019 44.638 26.198
+{ca glu 67}P -17.574 43.705 22.486
+{cb glu 67}-17.173 45.128 22.142
+{cg glu 67}-18.045 45.924 21.149
+{cd glu 67}-17.878 47.402 21.119
+{oe1 glu 67}-17.202 47.995 21.937
+{cd glu 67}P -17.878 47.402 21.119
+{oe2 glu 67}-18.502 48.046 20.243
+{ca phe 68}P -14.777 42.604 24.913
+{cb phe 68}-14.644 43.152 26.341
+{cg phe 68}-13.578 42.59 27.212
+{cd1 phe 68}-12.27 43.078 27.159
+{ce1 phe 68}-11.271 42.563 27.985
+{cz phe 68}-11.584 41.506 28.859
+{cg phe 68}P -13.578 42.59 27.212
+{cd2 phe 68}-13.861 41.518 28.096
+{ce2 phe 68}-12.893 41.001 28.93
+{cz phe 68}-11.584 41.506 28.859
+{ca leu 69}P -16.624 39.386 25.794
+{cb leu 69}-17.992 39.551 26.431
+{cg leu 69}-18.841 38.48 27.019
+{cd1 leu 69}-18.978 37.313 26.051
+{cg leu 69}P -18.841 38.48 27.019
+{cd2 leu 69}-18.226 37.997 28.343
+{ca thr 70}P -17.019 38.495 22.112
+{cb thr 70}-18.055 39.077 21.088
+{og1 thr 70}-17.445 40.286 20.527
+{cb thr 70}P -18.055 39.077 21.088
+{cg2 thr 70}-19.422 39.455 21.643
+{ca met 71}P -13.371 39.368 21.286
+{cb met 71}-12.598 40.651 21.527
+{cg met 71}-11.092 40.459 21.456
+{sd met 71}-10.375 40.674 23.127
+{ce met 71}-8.81 39.854 23.
+{ca met 72}P -12.293 37.28 24.289
+{cb met 72}-12.723 37.736 25.687
+{cg met 72}-11.536 37.99 26.575
+{sd met 72}-10.334 38.886 25.517
+{ce met 72}-9.208 39.466 26.828
+{ca ala 73}P -14.453 34.24 23.434
+{cb ala 73}-15.944 34.343 23.226
+{ca arg 74}P -13.068 33.718 19.893
+{cb arg 74}-13.18 34.851 18.84
+{cg arg 74}-14.285 34.649 17.818
+{cd arg 74}-14.073 35.447 16.567
+{ne arg 74}-14.485 36.84 16.744
+{cz arg 74}-15.751 37.121 17.107
+{nh1 arg 74}-16.653 36.155 17.259
+{cz arg 74}P -15.751 37.121 17.107
+{nh2 arg 74}-16.086 38.392 17.329
+{ca lys 75}P -9.463 34.351 20.961
+{cb lys 75}-8.79 35.673 21.381
+{cg lys 75}-7.348 35.401 21.825
+{cd lys 75}-6.688 36.543 22.529
+{ce lys 75}-5.934 37.415 21.525
+{nz lys 75}-4.896 36.55 20.879
+@subgroup {Sidechain properties} nobutton
+@vectorlist {hydrophilic} nobutton color=magenta master= {Hydrophilic} off
+{ca glu 67}P -17.574 43.705 22.486
+{cb glu 67}-17.173 45.128 22.142
+{cg glu 67}-18.045 45.924 21.149
+{cd glu 67}-17.878 47.402 21.119
+{oe1 glu 67}-17.202 47.995 21.937
+{cd glu 67}P -17.878 47.402 21.119
+{oe2 glu 67}-18.502 48.046 20.243
+{ca arg 74}P -13.068 33.718 19.893
+{cb arg 74}-13.18 34.851 18.84
+{cg arg 74}-14.285 34.649 17.818
+{cd arg 74}-14.073 35.447 16.567
+{ne arg 74}-14.485 36.84 16.744
+{cz arg 74}-15.751 37.121 17.107
+{nh1 arg 74}-16.653 36.155 17.259
+{cz arg 74}P -15.751 37.121 17.107
+{nh2 arg 74}-16.086 38.392 17.329
+{ca lys 75}P -9.463 34.351 20.961
+{cb lys 75}-8.79 35.673 21.381
+{cg lys 75}-7.348 35.401 21.825
+{cd lys 75}-6.688 36.543 22.529
+{ce lys 75}-5.934 37.415 21.525
+{nz lys 75}-4.896 36.55 20.879
+@vectorlist {hydrophobic} nobutton color=seagreen master= {Hydrophobic} off
+{ca pro 66}P -20.359 42.667 24.954
+{cb pro 66}-21.667 43.18 24.373
+{cg pro 66}-22.162 44.237 25.312
+{cd pro 66}-21.019 44.638 26.198
+{n pro 66}P -20.004 43.576 26.047
+{cd pro 66}-21.019 44.638 26.198
+{ca phe 68}P -14.777 42.604 24.913
+{cb phe 68}-14.644 43.152 26.341
+{cg phe 68}-13.578 42.59 27.212
+{cd1 phe 68}-12.27 43.078 27.159
+{ce1 phe 68}-11.271 42.563 27.985
+{cz phe 68}-11.584 41.506 28.859
+{cg phe 68}P -13.578 42.59 27.212
+{cd2 phe 68}-13.861 41.518 28.096
+{ce2 phe 68}-12.893 41.001 28.93
+{cz phe 68}-11.584 41.506 28.859
+{ca leu 69}P -16.624 39.386 25.794
+{cb leu 69}-17.992 39.551 26.431
+{cg leu 69}-18.841 38.48 27.019
+{cd1 leu 69}-18.978 37.313 26.051
+{cg leu 69}P -18.841 38.48 27.019
+{cd2 leu 69}-18.226 37.997 28.343
+{ca thr 70}P -17.019 38.495 22.112
+{cb thr 70}-18.055 39.077 21.088
+{og1 thr 70}-17.445 40.286 20.527
+{cb thr 70}P -18.055 39.077 21.088
+{cg2 thr 70}-19.422 39.455 21.643
+{ca met 71}P -13.371 39.368 21.286
+{cb met 71}-12.598 40.651 21.527
+{cg met 71}-11.092 40.459 21.456
+{sd met 71}-10.375 40.674 23.127
+{ce met 71}-8.81 39.854 23.
+{ca met 72}P -12.293 37.28 24.289
+{cb met 72}-12.723 37.736 25.687
+{cg met 72}-11.536 37.99 26.575
+{sd met 72}-10.334 38.886 25.517
+{ce met 72}-9.208 39.466 26.828
+{ca ala 73}P -14.453 34.24 23.434
+{cb ala 73}-15.944 34.343 23.226
+@group {Res 0} animate dominant off
+@vectorlist {res 0} color=red
+{ca glu 67}P -17.574 43.705 22.486
+{cb glu 67}-17.173 45.128 22.142
+{cg glu 67}-18.045 45.924 21.149
+{cd glu 67}-17.878 47.402 21.119
+{oe1 glu 67}-17.202 47.995 21.937
+{cd glu 67}P -17.878 47.402 21.119
+{oe2 glu 67}-18.502 48.046 20.243
+@group {Res 1} animate dominant
+@vectorlist {res 1} color=blue
+{ca phe 68}P -14.777 42.604 24.913
+{cb phe 68}-14.644 43.152 26.341
+{cg phe 68}-13.578 42.59 27.212
+{cd1 phe 68}-12.27 43.078 27.159
+{ce1 phe 68}-11.271 42.563 27.985
+{cz phe 68}-11.584 41.506 28.859
+{cg phe 68}P -13.578 42.59 27.212
+{cd2 phe 68}-13.861 41.518 28.096
+{ce2 phe 68}-12.893 41.001 28.93
+{cz phe 68}-11.584 41.506 28.859
+@group {Res 2} animate dominant
+@vectorlist {res 2} color=green
+{ca leu 69}P -16.624 39.386 25.794
+{cb leu 69}-17.992 39.551 26.431
+{cg leu 69}-18.841 38.48 27.019
+{cd1 leu 69}-18.978 37.313 26.051
+{cg leu 69}P -18.841 38.48 27.019
+{cd2 leu 69}-18.226 37.997 28.343
+@group {Res 3} animate dominant
+@vectorlist {res 3} color=gold
+{ca thr 70}P -17.019 38.495 22.112
+{cb thr 70}-18.055 39.077 21.088
+{og1 thr 70}-17.445 40.286 20.527
+{cb thr 70}P -18.055 39.077 21.088
+{cg2 thr 70}-19.422 39.455 21.643
+@group {Res 4} animate dominant
+@vectorlist {res 4} color=orange
+{ca met 71}P -13.371 39.368 21.286
+{cb met 71}-12.598 40.651 21.527
+{cg met 71}-11.092 40.459 21.456
+{sd met 71}-10.375 40.674 23.127
+{ce met 71}-8.81 39.854 23.
+<end of file>

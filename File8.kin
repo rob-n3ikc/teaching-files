@@ -1,0 +1,81 @@
+@text
+"MIXED  TERTIARY  STRUCTURE  MOTIFS  --  THE  ZINC  FINGER" 
+
+The zinc finger is a DNA-binding motif which contains one alpha-helix and one antiparallel two-stranded beta-sheet, connected by a short loop.  The structure shown in this kinemage is from PDB file, 1ZAA.  As the name implies, the finger binds a zinc atom in order to maintain the conformation necessary for proper function.  The zinc is held in place by four sidechains of histidines and cysteines.  Proteins which contain the zinc finger motif are typically involved in regulating DNA transcription in higher organisms.  A protein which possesses three of these motifs, and its binding to DNA, will be examined in another kinemage file.
+@kinemage 1
+@caption
+Calpha trace of a zinc finger, with the zinc ion displayed as a blue ball and its ligands in yellow.
+@onewidth
+@zoom 0.88 
+@zslab 140 
+@center 13.143 5.872 46.408 
+@matrix 
+-0.55701 -0.82838 -0.05943  0.45934 -0.36690  0.80895 -0.69192  0.42329  0.58487
+@group {"FINGER"} 
+@subgroup {Alpha-C's} dominant 
+@vectorlist {ca} color=bluetint 
+{ca lys c 33} P 9.525 0.507 55.173
+{ca pro c 34} 8.542 -2.33 52.841
+{ca phe c 35} 9.953 -0.915 49.593
+{ca gln c 36} 13.634 -0.915 48.797
+{ca cys c 37} 15.248 1.127 46.123
+{ca arg c 38} 17.017 -1.306 43.841
+{ca ile c 39} 19.699 1.264 43.203
+{ca cys c 40} 20.601 2.837 46.481
+{ca met c 41} 19.016 0.225 48.772
+{ca arg c 42} 17.168 2.943 50.559
+{ca asn c 43} 13.874 1.879 52.142
+{ca phe c 44} 10.517 3.462 51.765
+{ca ser c 45} 7.209 3.255 53.457
+{c ser c 45} 6.164 2.992 52.379
+{c ser c 45} P 6.164 2.992 52.379
+{n arg c 46} 6.239 3.685 51.224
+{ca arg c 46} 5.248 3.499 50.179
+{ca ser c 47} 5.163 2.157 46.617
+{ca asp c 48} 4.323 5.371 44.994
+{ca his c 49} 7.046 7.17 46.892
+{ca leu c 50} 9.572 4.619 45.768
+{ca thr c 51} 8.655 5.098 42.064
+{ca thr c 52} 9.118 8.801 42.256
+{ca his c 53} 12.401 8.561 44.207
+{ca ile c 54} 13.958 6.209 41.623
+{ca arg c 55} 13.521 9.049 39.138
+{ca thr c 56} 16.236 10.885 41.026
+{ca his c 57} 18.566 8.105 39.965
+{ca thr c 58} 17.511 7.723 36.377
+{ca gly c 59} 16.795 11.397 35.662
+@subgroup {Zinc} dominant 
+@balllist {Zn} radius=.4 color=blue 
+{Zn d 202} P 17.433 5.12 45.495
+@subgroup {Zn-ligs} dominant 
+@vectorlist {ligs} color= yellow 
+{ca cys c 37} P 15.248 1.127 46.123
+{cb cys c 37} 15.747 2.564 46.217
+{sg cys c 37} 16.53 3.116 44.696
+{ca cys c 40} P 20.601 2.837 46.481
+{cb cys c 40} 20.478 4.37 46.677
+{sg cys c 40} 18.828 4.932 47.203
+{ca his c 53} P 12.401 8.561 44.207
+{cb his c 53} 12.618 7.867 45.542
+{cg his c 53} 14.04 7.443 45.745
+{nd1 his c 53} 14.961 8.272 46.343
+{ce1 his c 53} 16.097 7.62 46.379
+{ne2 his c 53} 15.948 6.42 45.841
+{ce1 his c 53} 16.097 7.62 46.379
+{cg his c 53} P 14.04 7.443 45.745
+{cd2 his c 53} 14.658 6.277 45.435
+{ne2 his c 53} 15.948 6.42 45.841
+{ce1 his c 53} 16.097 7.62 46.379
+{ca his c 57} P 18.566 8.105 39.965
+{cb his c 57} 18.524 6.635 40.383
+{cg his c 57} 18.599 6.505 41.843
+{nd1 his c 57} 19.604 7.105 42.541
+{ce1 his c 57} 19.405 6.819 43.821
+{ne2 his c 57} 18.319 6.069 43.959
+{ce1 his c 57} 19.405 6.819 43.821
+{cg his c 57} P 18.599 6.505 41.843
+{cd2 his c 57} 17.788 5.856 42.711
+{ne2 his c 57} 18.319 6.069 43.959
+{ce1 his c 57} 19.405 6.819 43.821
+<end of file>
+

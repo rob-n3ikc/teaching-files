@@ -1,0 +1,129 @@
+@text
+"TERTIARY  STRUCTURE  --  THE  HELIX-TURN-HELIX  MOTIF  (LAMBDA  REPRESSOR)"
+
+Another type of tertiary structure which consists primarily of alpha-helices is the 'helix-turn-helix' motif.  This is one of the common configurations found in proteins which bind to DNA.  Typically, the second helix is responsible for the interaction with specific regions of DNA and is known as the 'recognition helix'.  After examining the motif, click on 'protein' to display the rest of the protein containing this helix-turn-helix.  In this kinemage, you see the N-domain of a protein known as lambda repressor (from PDB file, 1LMB), which is part of the 'on-off switch' controlling production of lambda, a bacterial virus.  View2 presents another look at the entire protein.  In a kinemage to be viewed later, this protein's interaction with DNA will be studied.
+@kinemage 1
+@caption
+Calpha trace of the helix-turn-helix motif found in the DNA-binding N-domain of lambda repressor.  Select view2 and 'Protein' to see the entire N-domain.  The helix-turn-helix is highlighted in magenta-skyblue-magenta, while the remainder of the protein is displayed in yellowtint.
+@onewidth
+@viewid {Hlx-turn-hlx}
+@zoom 1.32 
+@zslab 310 
+@center -1.683 -11.961 -7.503 
+@matrix 
+0.287331 0.419653 0.861007 0.331454 -0.886937 0.321680 0.898655 0.192956 -0.393939
+@2viewid {protein}
+@2zoom 0.74 
+@2zslab 180 
+@2center 11.401 -8.806 -9.081 
+@2matrix 
+-0.986710 -0.142159 -0.078692 0.158025 -0.952270 -0.261163 -0.037811 -0.270129 0.962081  
+@group {Hlx-T-Hlx} dominant
+@vectorlist {helix1} color=magenta
+{ser B 32}P -0.463 -13.297 -15.94
+{gln B 33}0.382 -11.085 -12.942
+{glu B 34}-3.066 -12.404 -11.95
+{ser B 35}-1.681 -15.971 -11.665
+{val B 36}1.97 -15.173 -10.879
+{ala B 37}0.391 -13.407 -7.864
+{asp B 38}-1.641 -16.355 -6.497
+{lys B 39}1.514 -18.499 -6.662
+{met B 40}3.155 -15.943 -4.337
+{gly B 41}0.26 -15.153 -2.012
+@vectorlist {turn} color=skyblue
+{gly B 41}P 0.26 -15.153 -2.012
+{met B 42}-0.3 -11.517 -3.055
+{gly B 43}-2.536 -9.525 -5.397
+@vectorlist {helix2} color=magenta
+{gly B 43}P -2.536 -9.525 -5.397
+{gln B 44}-1.924 -8.288 -8.919
+{ser B 45} -0.917 -4.852 -7.534
+{gly B 46}1.75 -6.315 -5.26
+{val B 47}3.194 -8.198 -8.246
+{gly B 48}2.547 -5.058 -10.298
+{ala B 49}4.666 -2.955 -7.91
+{leu B 50}7.514 -5.436 -8.229
+{phe B 51}7.579 -5.532 -12.036
+{asn B 52}7.386 -1.711 -12.258
+{gly B 53}9.952 -0.337 -9.756
+@group {Protein} off dominant
+@vectorlist {rest of subunit} color=yellowtint
+{ser B 1}P 4.538 4.776 9.386
+{thr B 2}3.128 5.037 5.858
+{lys B 3}5.989 6.453 3.869
+{lys B 4}7.501 4.68 0.832
+{lys B 5}11.182 5.078 -0.04
+{pro B 6}12.365 5.669 -3.602
+{leu B 7}14.211 2.824 -5.345
+{thr B 8}17.924 2.763 -6.075
+{gln B 9}19.233 2.989 -9.637
+{glu B 10}20.342 -0.66 -9.437
+{gln B 11}17.076 -1.773 -7.745
+{leu B 12}15.168 -0.11 -10.583
+{glu B 13}17.307 -1.924 -13.164
+{asp B 14}16.785 -5.374 -11.603
+{ala B 15}13.045 -4.618 -11.797
+{arg B 16}13.284 -3.67 -15.495
+{arg B 17}15.316 -6.851 -16.071
+{leu B 18}12.563 -8.789 -14.184
+{lys B 19}9.659 -7.477 -16.299
+{ala B 20}11.752 -8.033 -19.433
+{ile B 21}12.101 -11.696 -18.436
+{tyr B 22}8.398 -11.999 -17.564
+{glu B 23}7.623 -10.432 -20.937
+{lys B 24}9.656 -12.919 -22.983
+{lys B 25}8.435 -15.998 -21.051
+{lys B 26}4.812 -15.008 -20.43
+{asn B 27}3.295 -16.878 -23.371
+{glu B 28}5.68 -19.86 -23.268
+{leu B 29}4.916 -20.369 -19.541
+{gly B 30}1.43 -18.925 -20.065
+{leu B 31}0.964 -16.562 -17.142
+{ser B 32}-0.463 -13.297 -15.94
+{gly B 53}P 9.952 -0.337 -9.756
+{ile B 54}7.446 0.818 -7.118
+{asn B 55}8.444 -1.745 -4.422
+{ala B 56}11.938 -3.312 -4.206
+{leu B 57}12.531 -7.058 -4.434
+{asn B 58}14.134 -8.975 -1.579
+{ala B 59}15.829 -12.39 -1.533
+{tyr B 60}12.626 -14.342 -0.809
+{asn B 61}10.6 -12.727 -3.579
+{ala B 62}13.504 -12.754 -6.012
+{ala B 63}13.932 -16.513 -5.351
+{leu B 64}10.162 -17.07 -5.551
+{leu B 65}10.004 -15.07 -8.81
+{ala B 66}12.983 -17.001 -10.298
+{lys B 67}11.518 -20.424 -9.557
+{ile B 68}8.165 -19.248 -11.016
+{leu B 69}9.785 -17.943 -14.23
+{lys B 70}11.962 -21.07 -14.429
+{val B 71}15.056 -18.857 -14.441
+{ser B 72}17.971 -17.97 -12.15
+{val B 73}18.137 -14.658 -10.252
+{glu B 74}21.664 -13.641 -11.386
+{glu B 75}19.718 -13.098 -14.606
+{phe B 76}17.615 -10.294 -13.136
+{ser B 77}19.639 -9.456 -10.018
+{pro B 78}23.389 -9.971 -9.699
+{ser B 79}23.525 -8.123 -6.343
+{ile B 80}20.69 -10.081 -4.724
+{ala B 81}22.162 -13.29 -6.138
+{arg B 82}25.515 -12.349 -4.559
+{glu B 83}23.586 -11.559 -1.345
+{ile B 84}21.998 -15.036 -1.294
+{tyr B 85}25.42 -16.623 -2.006
+{glu B 86}26.719 -14.665 0.992
+{met B 87}23.969 -15.998 3.305
+{tyr B 88}24.466 -19.578 2.086
+{glu B 89}28.158 -19.51 3.083
+{ala B 90}26.807 -19.324 6.662
+{val B 91}25.058 -22.684 6.257
+{ser B 92}27.897 -24.299 4.342
+@group {Labels} dominant
+@labellist {h-t-h} color=grey
+{Helix 1} -0.463 -10.297 -15.94
+{  Turn} 0.26 -12.153 -2.012
+{  Helix 2} 1.75 -6.315 -5.26
+<end of file>
+

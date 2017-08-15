@@ -1,0 +1,203 @@
+@text 
+"SECONDARY  STRUCTURE  --  THE  BETA-SHEET"
+
+The other secondary structure element that can be found in proteins is the beta-sheet.  In contrast to the alpha-helix, the beta-sheet does not have to be made up of a continuous region of protein.  A beta-sheet can contain two or more stretches of amino acids, each one known as a beta-strand.  Each strand is usually 5-10 amino acids long in a nearly extended conformation and is held in place by the sharing of hydrogens between mainchain atoms from neighboring strands.  The beta-strands are pleated and the sidechains alternate up and down, due to steric considerations.  
+
+In this kinemage, you will see a two-stranded, antiparallel beta-sheet; the two strands are connected by a three-residue turn ('turns' and 'loops' are also secondary structure features).  In later kinemages, you will see beta-sheets within proteins that contain more than two strands and you will observe beta-sheets that are considered 'parallel' or 'antiparallel', based on the direction the strand follows relative to the first and last amino acids in the protein.
+@kinemage 1
+@caption
+Two-stranded antiparallel beta-sheet.  Start-up view is from the top, ideal for examining the hydrogen bonding pattern.  Note positions of the N- and C-termini, defining the anti-parallel character.  Select view2 for a look from the side, highlighting the 'pleated' configuration of beta-strands.
+@onewidth
+@viewid {Top}
+@zoom 1.00 
+@zslab 200 
+@center 15.775 28.075 16.630 
+@matrix 
+0.629778 -0.486866 0.605261 0.625431 -0.144282 -0.766824 0.460669 0.861478 0.213635
+@2viewid {Side}
+@2zoom 1.00 
+@2zslab 100 
+@2center 15.375 28.490 17.875 
+@2matrix 
+ 0.54158  0.82656 -0.15324 -0.02297 -0.16767 -0.98557 -0.84034  0.53729 -0.07182
+@group {Beta-sheet} animate
+@subgroup {Mainchain} dominant
+@vectorlist {mc} color= white 
+{n met 1}P 19.01 27.97 5.6
+{ca met 1}19.67 27.22 7.13
+{c met 1}18.2 28.06 8.
+{o met 1}18.05 28.98 8.39
+{c met 1}P 18.2 28.06 8.
+{n lys 2}17.68 26.71 8.64
+{ca lys 2}16.49 27.28 9.35
+{c lys 2}16.6 27.43 10.8
+{o lys 2}17.53 26.82 11.49
+{c lys 2}P 16.6 27.43 10.8
+{n lys 3}15.82 28.35 11.37
+{ca lys 3}15.73 28.47 12.8
+{c lys 3}14.82 27.42 13.49
+{o lys 3}14. 26.84 12.85
+{c lys 3}P 14.82 27.42 13.49
+{n tyr 4}15.19 27.15 14.71
+{ca tyr 4}14.52 26.16 15.53
+{c tyr 4}14.08 26.84 16.82
+{o tyr 4}14.85 27.5 17.43
+{c tyr 4}P 14.08 26.84 16.82
+{n thr 5}12.89 26.45 17.39
+{ca thr 5}12.55 27. 18.75
+{c thr 5}12.37 25.92 19.75
+{o thr 5}11.9 24.74 19.38
+{c thr 5}P 12.37 25.92 19.75
+{n cys 6}12.8 26.25 20.89
+{ca cys 6}12.63 25.41 22.06
+{c cys 6}11.04 25.55 22.39
+{o cys 6}10.59 26.61 22.77
+{c cys 6}P 11.04 25.55 22.39
+{n thr 7}10.34 24.41 22.35
+{ca thr 7}8.84 24.47 22.65
+{c thr 7}8.55 24.56 24.16
+{o thr 7}7.19 24.91 24.39
+{c thr 7}P 8.55 24.56 24.16
+{n val 8}9.56 24.34 24.96
+{ca val 8}9.23 24.39 26.3
+{c val 8}9.45 25.88 26.77
+{o val 8}8.55 26.38 27.53
+{c val 8}P 9.45 25.88 26.77
+{n cys 9}10.41 26.7 26.32
+{ca cys 9}10.6 28.03 26.88
+{c cys 9}10.56 29.06 25.78
+{o cys 9}10.4 30.34 26.15
+{c cys 9}P 10.56 29.06 25.78
+{n gly 10}10.59 28.85 24.41
+{ca gly 10}10.51 29.89 23.43
+{c gly 10}11.9 30.3 22.89
+{o gly 10}11.87 31.07 21.94
+{c gly 10}P 11.9 30.3 22.89
+{n tyr 11}13. 29.87 23.47
+{ca tyr 11}14.34 30.21 22.96
+{c tyr 11}14.34 29.78 21.39
+{o tyr 11}13.82 28.77 20.96
+{c tyr 11}P 14.34 29.78 21.39
+{n ile 12}14.97 30.72 20.68
+{ca ile 12}15.19 30.39 19.46
+{c ile 12}16.67 30.14 18.93
+{o ile 12}17.54 31.01 19.32
+{c ile 12}P 16.67 30.14 18.93
+{n tyr 13}16.95 28.99 18.39
+{ca tyr 13}18.24 28.77 17.9
+{c tyr 13}18.24 29.38 16.44
+{o tyr 13}17.59 28.98 15.56
+{c tyr 13}P 18.24 29.38 16.44
+{n asp 14}19.3 30.3 16.23
+{ca asp 14}19.59 30.95 14.96
+{c asp 14}20.93 30.46 14.39
+{o asp 14}21.97 30.78 15.17
+{c asp 14}P 20.93 30.46 14.39
+{n pro 15}20.86 29.64 13.46
+{ca pro 15}22.18 29.01 12.96
+{c pro 15}23.17 30.09 12.67
+{o pro 15}24.36 29.86 12.67
+@subgroup {Sidechain} dominant
+@vectorlist {sc} color= cyan 
+{ca met 1}P 19.67 27.22 7.13
+{cb met 1}20.47 27.25 8.34
+{ca lys 2}P 16.49 27.28 9.35
+{cb lys 2}15.46 25.93 8.92
+{cg lys 2}14.93 25.28 8.41
+{cd lys 2}14.05 26.05 7.19
+{ce lys 2}13.94 25.25 5.86
+{nz lys 2}13.97 26.13 4.68
+{ca lys 3}P 15.73 28.47 12.8
+{cb lys 3}15.12 29.76 13.09
+{cg lys 3}16.15 30.93 12.57
+{cd lys 3}15.54 32.13 12.85
+{ce lys 3}15.89 33.62 12.32
+{nz lys 3}14.92 34.71 12.92
+{ca tyr 4}P 14.52 26.16 15.53
+{cb tyr 4}15.34 24.84 15.89
+{cg tyr 4}15.43 24. 14.68
+{cd1 tyr 4}14.75 22.68 14.73
+{ce1 tyr 4}14.8 21.82 13.58
+{cz tyr 4}15.41 22.15 12.52
+{oh tyr 4}15.49 21.44 11.23
+{cg tyr 4}P 15.43 24. 14.68
+{cd2 tyr 4}16.08 24.24 13.53
+{ce2 tyr 4}16.06 23.38 12.29
+{cz tyr 4}15.41 22.15 12.52
+{ca thr 5}P 12.55 27. 18.75
+{cb thr 5}11.14 27.66 18.45
+{og1 thr 5}10.93 28.36 19.76
+{cb thr 5}P 11.14 27.66 18.45
+{cg2 thr 5}10.52 27.76 17.47
+{ca cys 6}P 12.63 25.41 22.06
+{cb cys 6}13.45 25.91 23.21
+{sg cys 6}13.13 24.89 24.65
+{ca thr 7}P 8.84 24.47 22.65
+{cb thr 7}8.12 23.17 21.67
+{og1 thr 7}8.39 21.99 22.58
+{cb thr 7}P 8.12 23.17 21.67
+{cg2 thr 7}8.39 23.32 20.26
+{ca val 8}P 9.23 24.39 26.3
+{cb val 8}10.26 23.55 27.03
+{cg1 val 8}10.47 23.91 28.58
+{cb val 8}P 10.26 23.55 27.03
+{cg2 val 8}9.64 22.03 26.93
+{ca cys 9}P 10.6 28.03 26.88
+{cb cys 9}11.9 28.21 27.59
+{sg cys 9}13.4 28.28 26.5
+{ca tyr 11}P 14.34 30.21 22.96
+{cb tyr 11}15.34 29.46 23.69
+{cg tyr 11}16.82 29.51 22.99
+{cd1 tyr 11}17.61 30.55 23.29
+{ce1 tyr 11}18.81 30.5 22.55
+{cz tyr 11}19.28 29.29 21.79
+{oh tyr 11}20.59 29.46 21.16
+{cg tyr 11}P 16.82 29.51 22.99
+{cd2 tyr 11}17.21 28.3 22.33
+{ce2 tyr 11}18.47 28.31 21.75
+{cz tyr 11}19.28 29.29 21.79
+{ca ile 12}P 15.19 30.39 19.46
+{cb ile 12}14.7 31.59 18.43
+{cg1 ile 12}13.1 31.58 18.29
+{cd1 ile 12}12.72 32.26 18.27
+{cb ile 12}P 14.7 31.59 18.43
+{cg2 ile 12}15.08 31.63 16.95
+{ca tyr 13}P 18.24 28.77 17.9
+{cb tyr 13}18.56 27.23 17.82
+{cg tyr 13}19.89 27.06 17.19
+{cd1 tyr 13}21.05 27.24 17.92
+{ce1 tyr 13}22.3 27.09 17.31
+{cz tyr 13}22.41 26.71 15.97
+{oh tyr 13}23.69 26.66 15.45
+{cg tyr 13}P 19.89 27.06 17.19
+{cd2 tyr 13}19.98 26.62 15.83
+{ce2 tyr 13}21.29 26.45 15.26
+{cz tyr 13}22.41 26.71 15.97
+{ca asp 14}P 19.59 30.95 14.96
+{cb asp 14}19.53 32.51 15.22
+{cg asp 14}20.01 32.92 13.74
+{od1 asp 14}20.06 32.4 12.71
+{cg asp 14}P 20.01 32.92 13.74
+{od2 asp 14}19.32 34.12 13.83
+{ca pro 15}P 22.18 29.01 12.96
+{cb pro 15}21.71 28.22 11.64
+{cg pro 15}20.47 28.71 11.59
+{cd pro 15}19.64 29.32 12.66
+{n pro 15}P 20.86 29.64 13.46
+{cd pro 15}19.64 29.32 12.66
+@subgroup {H bonds} dominant
+@vectorlist {hb} color= purple 
+<2.149>{tyr 4 hn} P U 15.969 27.653 15.083
+{tyr 13 o} U 17.104 28.582 15.417
+<1.729>{cys 6 hn} P U 13.27 27.131 20.947
+{tyr 11 o} U 13.655 28.278 20.956
+<1.827>{gly 10 hn} P U 10.672 27.927 24.033
+{cys 6 o} U 10.615 27.005 23.149
+<1.838>{tyr 13 hn} P U 16.264 28.266 18.32
+{tyr 4 o} U 15.274 27.73 17.697
+@group {Labels} nobutton
+@labellist {N,C-term} nobutton color=white master= {Termini}
+{N-term}P 19.01 27.97 4.1
+{C-term}24.17 30.09 11.17
+<end of file>
+

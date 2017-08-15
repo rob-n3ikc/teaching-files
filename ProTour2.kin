@@ -1,0 +1,1345 @@
+@text 
+"The Protein Tourist #2:  Coiled-Coil Structure of the Leucine Zipper Peptide from Transcription Factor GCN4",  T. Alber and J.S. Richardson
+
+	Contents of file PROTOUR2.KIN:
+Kin.1 - Tropomyosin Calphas: a long coiled-coil in a fibrous protein
+Kin.2 - A short, distorted coiled coil in the dimer interface of CAP protein
+Kin.3 - GCN4 leucine zipper peptide: a high-resolution coiled-coil structure
+Kin.4 - Salt bridges around the outside of the zipper hydrophobic core
+Kin.5 - Asymmetrical arrangement of Asn 16
+
+	A motif known as the "leucine zipper" mediates dimerization of the bZIP and bHLH-ZIP classes of transcription factors (Landschulz et al., 1988; Harrison, 1991; Alber, 1992).   Leu zipper sequences are characterized by a sequence of 30 or 40 helix-tolerating amino acids with Leu every seven residues.  Leucine zipper peptides form dimers of parallel helices proposed to be similar to coiled coils common in much longer alpha-fibrous proteins (O'shea et al., 1989).  A recent high-resolution x-ray structure of a synthetic, 33-residue fragment of the yeast transcription factor GCN4 confirms that the leucine zipper forms a coiled coil, and illustrates interactions that mediate dimerization (O'Shea et al., 1991).  This Protein Tourist allows readers to explore the GCN4 leucine zipper structure.
+
+	Kinemage 1 shows 200 residues of the Calpha backbone for a long coiled-coil in the fibrous protein tropomyosin (2TMA; Phillips et al., 1986).  The model is based on an electron density map calculated at 15A resolution.  Detailed sidechain positions are not known, but the lefthanded supercoil is apparent.  Choose "zoom, etc." on the Other menu and move down on the zoom scrollbar.  The supercoiling allows hydrophobic residues spaced four and then three residues apart in the sequence to make a continuous interface.  The sequences of coiled-coil proteins (such as tropomyosin) have long been analyzed in terms of a seven-residue "heptad" repeat abcdefg; hydrophobic amino acids typically occur in positions a and d, which point toward the other helix.
+
+	Kinemage 2 illustrates a rare example of a helix pair in a globular protein that is similar to a coiled coil.  It shows buried, 24-residue helices that form part of the interface of the CAP dimer (3GAP; Weber and Steitz, 1987).  The sidechains of potential heptad positions 'a' are shown in gold and 'd' in orange.  The arrangement is similar to a leucine zipper, but the helices are shorter and less regular.  The CAP helices are somewhat farther apart for much of their length, the pairs of contacting sidechains do not have the same geometry at each layer, and the helices themselves are locally distorted, apparently to provide the varying contact interactions.  Choose "zoom, etc." from the Other menu, set zoom to about 3.0, and z-translate down through the layers.  A pair of serines stands out near the middle of the helix interface, and the two contact layers closest to the C-terminus are most like the layers in the Leu zipper peptide.
+
+	Kinemage 3 shows the GCN4 leucine zipper dimer (2ZTA), initially viewed from the side.  The two chains have identical sequences and are oriented parallel, with the N-termini at the top.  The smooth bending and mutual coiling of the helices can be emphasized by turning off the side chains, turning on the axes, and rotating the image.  The supercoiling allows the helices to stay the same distance apart along their entire length; in contrast, most paired helices in globular proteins are straighter and diverge toward the ends.
+	Turn the sidechains back on, and notice that the interhelical contacts are made by sets of residues that look like wide rungs on a ladder (not, in fact, like teeth on a zipper).  Every other rung contains a pair of orange leucines; alternate rungs contain pairs of gold valines, with one Met pair at the top and one Asn pair near the middle.  In this kinemage, all of the Leu zipper sidechains are grouped and color-coded by their position in the seven-residue heptad repeat: 'd' (Leu) in orange; 'a' (Val) in gold, or in hotpink for Asn 16; 'e' and 'g', the contact-edge hydrophilics, in skyblue; and the outside positions 'b', 'c', and 'f' in cyan.  Turn on the "heptad lbl" button to see labels a through g for one repeat.
+	An end view of the Leu zipper supercoil shows the helix-helix contacts most clearly.  Choose Reset2 under Graphics, "zoom, etc" under the Other menu, and zoom to enlarge the image.  Turn off the "e, g" and the "b, c, f" buttons, to concentrate on the buried contact layers at positions a and d.  For a detailed tour, set the zoom to 3.0, the zslab to 100, and move the slider to the top of the ztrans scrollbar; you should see just a little backbone and the sidechains of Met 2 at the end of each helix.  Then hold down the mouse just above the arrow at the bottom of the ztrans scrollbar to move the structure fairly rapidly through the visible slab.  A little more than one "rung", or layer, will be in view at a time.  Notice how similar the geometry is for each rung of Leu 'd' sidechains; Val 'a' rungs are also similar to one another, but different in detail from Leu rungs.  Leu Cbetas point toward each other and their Cgammas turn out; Val Cbetas point outward, while one of their Cgammas points inward to touch.  Val is too short for optimal contact in a 'd' position, and Leu would not work in an 'a' position, because although its Cgamma could lie in the correct place its Cdeltas would then bump into the opposite helix.
+	Turn on the "e, g" side chains and move the structure through the slab again by holding down the mouse just below the up arrow on the ztrans scrollbar.  Notice how a given leucine contacts four surrounding sidechains on the opposite helix: its symmetry-mate Leu in 'd', the two adjacent 'a' residues, and the preceding 'g' residue.  This kind of arrangement is called "knobs-into-holes" packing.  It is usually not found in such a regular form in globular proteins, but was originally proposed by Francis Crick in 1953 to stabilize coiled coils.
+
+	Kinemage 4 is a closer view, of residues 14-28 on each helix.  Glu and Lys residues at positions e and g (in skyblue) make interhelical salt bridges (purple H-bonds and red dots for the O atoms) around the outside of the hydrophobic contact region.  Turn off the side chains at a and d to emphasize the ion pairs.  Three such salt bridges are well formed, but the potential ion pair between Lys 15 and Glu 20' at the bottom left is not formed in the crystal.  This pair has the asymmetrical Asn 16 sidechain protruding to the surface between them, and also has a competing intermolecular contact formed by Lys 15 in the crystal.  The ion pairs permit the aliphatic parts of the charged side chains to pack against the hydrophobic core (O'Shea et al., 1992).
+
+	Kinemage 5 is a closeup of the interaction between the two Asn 16 residues in the buried 'a' position at the middle of the leucine zipper.  There are H-bonds (purple) both between the two Asn sidechains and from one of them to a backbone CO on the opposite helix.  The Asn 16 side chains are strongly asymmetrical in the crystal structure, as seen here, but NMR data show that they are rapidly averaged (or symmetrical) in solution.  Almost all leucine zipper sequences contain at least one Asn in the interface.  This distinctive residue, by destabilizing alternative arrangements in which the polar side chains would be buried with nonpolar partners, may favor the parallel orientation and set the register of the helix-helix interaction.
+
+Leucine zipper coordinates from Brookhaven Data Bank file 2ZTA.
+	References:
+  T. Alber (1992) "Structure of the Leucine Zipper", Current Opinion in Genetics & Development 2, in press.
+  S.C. Harrison (1991) "A Structural Taxonomy of DNA-Binding Domains", Nature 353: 715-719.
+  W.H. Landschulz, P.F. Johnson, and S.L. McKnight (1988) Science 245: 1759
+  E.K. O'Shea, J.D. Klemm, P.S. Kim, and T. Alber (1991) "X-Ray Structure of the GCN4 Leucine Zipper, a Two-Strand, Parallel Coiled Coil", Science 254: 539-544.
+  E.K. O'Shea, R. Rutkowski, and P.S.Kim (1989) "Evidence that the Leucine Zipper is a Coiled Coil", Science 243: 538-542.
+  E.K. O'Shea, R. Rutkowski, and P.S.Kim (1992) "Mechanism of Specificity in the Fos-Jun Oncoprotein Dimer", Cell, in press.
+  G.N. Phillips, Jr., J.P. Fillers, and C. Cohen (1986) "Tropomyosin Crystal Structure and Muscle Regulation", J. Mol. Biol. 196: 111-131.
+  I.T. Weber and T.A. Steitz (1987) "Structure of a Complex of Catabolite Gene Activator Protein and Cyclic AMP Refined at 2.5A Resolution", J. Mol. Biol. 198: 311-326.
+
+@kinemage 1 
+@caption 
+Coiled-coil :  tropomyosin
+Coordinates from Brookhaven Data Bank file: 2TMA 
+@onewidth 
+@matrix 
+.085219 -.377187 .922208 -.290544 .875941 .385112 -.953059 -.300761 -.034943 
+@group {TMA chain 1} 
+@vectorlist {Calpha} color=sky
+{asp a 41} P -33.737 79.024 -304.253 {glu a 42} -35.31 78.3 -300.89
+{leu a 43} -32.17 79.35 -299.084
+{val a 44} -32.04 82.615 -300.984
+{ser a 45} -35.663 83.34 -300.145
+{leu a 46} -35.064 82.546 -296.5
+{gln a 47} -32.063 84.83 -296.384
+{lys a 48} -34.056 87.684 -297.88
+{lys a 49} -36.853 87.14 -295.383
+{leu a 50} -34.405 87.075 -292.51
+{lys a 51} -32.847 90.333 -293.62
+{gly a 52} -36.256 91.984 -293.84
+{thr a 53} -37.193 90.69 -290.413
+{glu a 54} -33.98 91.997 -288.924
+{asp a 55} -34.59 95.44 -290.38
+{glu a 56} -38.134 95.467 -289.03
+{leu a 57} -36.94 94.39 -285.613
+{asp a 58} -34.374 97.16 -285.516
+{lys a 59} -37.004 99.74 -286.43
+{tyr a 60} -39.353 98.396 -283.787
+{ser a 61} -36.647 98.53 -281.16
+{glu a 62} -35.887 102.15 -281.99
+{ala a 63} -39.57 103.043 -281.787
+{leu a 64} -39.91 101.26 -278.48
+{lys a 65} -36.956 103.12 -277.043
+{asp a 66} -38.424 106.447 -278.12
+{ala a 67} -41.78 105.526 -276.64
+{gln a 68} -40.176 104.52 -273.38
+{glu a 69} -38.34 107.817 -273.15
+{lys a 70} -41.543 109.72 -273.83
+{leu a 71} -43.39 107.693 -271.24
+{glu a 72} -40.73 108.373 -268.65
+{leu a 73} -40.9 112.09 -269.34
+{ala a 74} -44.67 112.02 -269.105
+{glu a 75} -44.53 110.127 -265.846
+{lys a 76} -42.12 112.64 -264.386
+{lys a 77} -44.35 115.49 -265.47
+{ala a 78} -47.377 113.77 -264.02
+{thr a 79} -45.61 113.216 -260.736
+{asp a 80} -44.62 116.85 -260.576
+{ala a 81} -48.154 117.904 -261.38
+{glu a 82} -49.533 115.594 -258.737
+{ala a 83} -47.16 116.98 -256.16
+{asp a 84} -48.127 120.5 -257.093
+{val a 85} -51.786 119.607 -256.923
+{ala a 86} -51.337 118.03 -253.53
+{ser a 87} -49.54 121.085 -252.276
+{leu a 88} -52.25 123.304 -253.666
+{asn a 89} -54.92 121.17 -252.084
+{arg a 90} -53.17 121.3 -248.757
+{arg a 91} -52.846 125.035 -249.03
+{ile a 92} -56.483 125.346 -249.97
+{gln a 93} -57.51 123.19 -247.054
+{leu a 94} -55.417 125.25 -244.716
+{val a 95} -56.89 128.42 -246.124
+{glu a 96} -60.38 127.046 -245.774
+{glu a 97} -59.72 126.06 -242.205
+{glu a 98} -58.32 129.47 -241.48
+{leu a 99} -61.294 131.11 -243.11
+{asp a 100} -63.673 128.975 -241.115
+{arg a 101} -61.854 129.82 -237.94
+{ala a 102} -61.915 133.48 -238.82
+{gln a 103} -65.604 133.32 -239.58
+{glu a 104} -66.286 131.607 -236.296
+{arg a 105} -64.233 134.18 -234.476
+{leu a 106} -66.04 136.977 -236.245
+{ala a 107} -69.39 135.49 -235.367
+{thr a 108} -68.36 135.14 -231.764
+{ala a 109} -67.107 138.694 -231.717
+{leu a 110} -70.33 139.944 -233.224
+{gln a 111} -72.354 138.07 -230.65
+{lys a 112} -70.204 139.45 -227.876
+{leu a 113} -70.55 142.95 -229.235
+{glu a 114} -74.306 142.613 -229.41
+{glu a 115} -74.427 141.36 -225.85
+{ala a 116} -72.216 144.195 -224.7
+{glu a 117} -74.394 146.73 -226.45
+{lys a 118} -77.5 145.323 -224.813
+{ala a 119} -75.827 145.397 -221.423
+{ala a 120} -74.71 148.963 -221.95
+{asp a 121} -78.21 150.03 -222.884
+{glu a 122} -79.63 148.37 -219.783
+{ser a 123} -77.004 150.01 -217.61
+{glu a 124} -77.755 153.404 -219.08
+{arg a 125} -81.46 152.99 -218.39
+{gly a 126} -80.754 151.936 -214.815
+{met a 127} -78.46 154.887 -214.294
+{lys a 128} -81.085 157.294 -215.555
+{val a 129} -83.68 155.83 -213.2
+{ile a 130} -81.283 156.045 -210.28
+{glu a 131} -80.5 159.657 -211.045
+{ser a 132} -84.19 160.55 -211.107
+{arg a 133} -84.756 158.8 -207.783
+{ala a 134} -81.807 160.575 -206.23
+{gln a 135} -83.1 163.946 -207.35
+{lys a 136} -86.52 163.238 -205.84
+{asp a 137} -84.95 162.12 -202.58
+{glu a 138} -82.84 165.243 -202.396
+{glu a 139} -85.885 167.455 -202.876
+{lys a 140} -87.774 165.604 -200.146
+{met a 141} -84.843 165.9 -197.78
+{glu a 142} -84.61 169.63 -198.353
+{ile a 143} -88.313 170.07 -197.615
+{gln a 144} -88.02 168.006 -194.45
+{glu a 145} -85.063 170.034 -193.273
+{ile a 146} -86.954 173.28 -193.774
+{gln a 147} -89.935 171.947 -191.837
+{leu a 148} -87.704 170.783 -189.02
+{lys a 149} -86.05 174.176 -188.77
+{glu a 150} -89.433 175.903 -188.576
+{ala a 151} -90.605 173.5 -185.895
+{lys a 152} -87.47 174.065 -183.87
+{his a 153} -87.926 177.82 -184.02
+{ile a 154} -91.536 177.51 -182.9
+{ala a 155} -90.554 175.237 -180.05
+{glu a 156} -87.91 177.67 -178.88
+{asp a 157} -90.397 180.527 -178.91
+{ala a 158} -92.91 178.467 -176.977
+{asp a 159} -90.317 177.526 -174.404
+{arg a 160} -89.35 181.15 -173.906
+{lys a 161} -92.98 182.14 -173.48
+{tyr a 162} -93.54 179.355 -170.99
+{glu a 163} -90.53 180.413 -168.973
+{glu a 164} -91.74 183.996 -168.88
+{val a 165} -95.19 182.88 -167.81
+{ala a 166} -93.75 180.73 -165.067
+{arg a 167} -91.675 183.607 -163.765
+{lys a 168} -94.694 185.884 -163.776
+{leu a 169} -96.76 183.3 -161.963
+{val a 170} -94.1 182.88 -159.32
+{ile a 171} -93.913 186.62 -158.795
+{ile a 172} -97.675 186.84 -158.53
+{glu a 173} -97.766 184.036 -156.01
+{ser a 174} -95.13 185.727 -153.896
+{asp a 175} -97.025 188.995 -154.02
+{leu a 176} -100.24 187.27 -153.06
+{glu a 177} -98.577 185.59 -150.117
+{arg a 178} -97.16 188.89 -148.936
+{ala a 179} -100.536 190.55 -149.29
+{glu a 180} -102.21 187.79 -147.335
+{glu a 181} -99.683 188.114 -144.54
+{arg a 182} -100.17 191.86 -144.444
+{ala a 183} -103.92 191.46 -144.36
+{glu a 184} -103.7 189.02 -141.49
+{leu a 185} -101.48 191.39 -139.546
+{ser a 186} -103.837 194.263 -140.216
+{glu a 187} -106.8 192.232 -139.064
+{gly a 188} -105.037 191.317 -135.844
+{lys a 189} -104.127 194.94 -135.235
+{cys a 190} -107.677 196.033 -135.895
+{ala a 191} -109.026 193.49 -133.453
+{glu a 192} -106.6 194.65 -130.786
+{leu a 193} -107.523 198.26 -131.417
+{glu a 194} -111.203 197.47 -131.16
+{glu a 195} -110.69 195.71 -127.85
+{glu a 196} -108.69 198.64 -126.53
+{ile a 197} -111.335 201.077 -127.67
+{lys a 198} -114.05 199.1 -125.94
+{thr a 199} -112.06 199.045 -122.714
+{val a 200} -111.427 202.763 -122.96
+{thr a 201} -115.09 203.453 -123.536
+{asn a 202} -116.05 201.427 -120.49
+{asn a 203} -113.49 203.26 -118.38
+{leu a 204} -114.716 206.6 -119.646
+{lys a 205} -118.29 205.73 -118.796
+{ser a 206} -117.29 204.717 -115.284
+{leu a 207} -115.31 207.907 -114.857
+{glu a 208} -118.216 209.99 -116.054
+{ala a 209} -120.55 208.325 -113.587
+{gln a 210} -118.09 208.91 -110.767
+{ala a 211} -117.675 212.525 -111.773
+{glu a 212} -121.413 213.05 -111.81
+{lys a 213} -121.736 211.554 -108.35
+{tyr a 214} -118.906 213.714 -107.81
+{ser a 215} -120.474 216.807 -108.563
+{gln a 216} -123.78 216.04 -106.904
+{lys a 217} -122.06 215.51 -103.58
+{glu a 218} -120.136 218.733 -103.974
+{asp a 219} -123.297 220.64 -104.75
+{lys a 220} -124.99 219.225 -101.68
+{tyr a 221} -121.995 220.094 -99.553
+{glu a 222} -121.924 223.606 -100.923
+{glu a 223} -125.59 224.076 -100.16
+{glu a 224} -125.08 222.8 -96.64
+{ile a 225} -122.105 225.074 -96.174
+{lys a 226} -124.07 228.055 -97.39
+{val a 227} -126.884 227.26 -95.01
+{leu a 228} -124.44 226.87 -92.164
+{ser a 229} -122.777 230.143 -93.023
+{asp a 230} -126.103 231.914 -93.087
+{lys a 231} -127.02 230.425 -89.745
+{leu a 232} -123.675 231.416 -88.31
+{lys a 233} -124.07 234.944 -89.58
+{glu a 234} -127.513 235.173 -88.067
+{ala a 235} -126.22 233.825 -84.79
+{glu a 236} -123.36 236.28 -84.81
+{thr a 237} -125.714 239.146 -85.47
+{arg a 238} -127.96 238.006 -82.67
+{ala a 239} -125.01 237.675 -80.345
+{glu a 240} -123.806 241.135 -81.235
+@group {chain 2} 
+@vectorlist {ca} color=sea
+{asp b 41} P -28.15 73.03 -294.53 {glu b 42} -27.716 76.69 -295.43
+{leu b 43} -31.425 77.076 -296.027
+{val b 44} -32.237 75.54 -292.673
+{ser b 45} -29.85 77.9 -290.914
+{leu b 46} -31.335 80.873 -292.72
+{gln b 47} -34.837 79.81 -291.8
+{lys b 48} -33.89 79.49 -288.156
+{lys b 49} -32.31 82.925 -288.19
+{leu b 50} -35.356 84.4 -289.86
+{lys b 51} -37.64 82.843 -287.29
+{gly b 52} -35.545 84.22 -284.47
+{thr b 53} -35.547 87.647 -286.054
+{glu b 54} -39.29 87.54 -286.506
+{asp b 55} -39.79 86.574 -282.894
+{glu b 56} -37.53 89.376 -281.77
+{leu b 57} -39.36 91.833 -283.974
+{asp b 58} -42.693 90.72 -282.607
+{lys b 59} -41.45 91.095 -279.075
+{tyr b 60} -40.09 94.524 -279.856
+{ser b 61} -43.354 95.555 -281.436
+{glu b 62} -45.283 94.354 -278.43
+{ala b 63} -42.953 96.21 -276.133
+{leu b 64} -43.276 99.34 -278.213
+{lys b 65} -47.04 99.09 -278.167
+{asp b 66} -47.02 98.63 -274.435
+{ala b 67} -44.704 101.574 -274.03
+{gln b 68} -46.894 103.713 -276.23
+{glu b 69} -49.953 102.757 -274.25
+{lys b 70} -48.16 103.516 -271.03
+{leu b 71} -47.007 106.845 -272.373
+{glu b 72} -50.51 107.726 -273.45
+{leu b 73} -51.85 106.78 -270.064
+{ala b 74} -49.16 108.807 -268.376
+{glu b 75} -49.913 111.79 -270.553
+{lys b 76} -53.59 111.54 -269.76
+{lys b 77} -52.824 111.26 -266.08
+{ala b 78} -50.52 114.236 -266.255
+{thr b 79} -53.154 116.294 -268.
+{asp b 80} -55.71 115.33 -265.4
+{ala b 81} -53.29 116.16 -262.63
+{glu b 82} -52.54 119.52 -264.164
+{ala b 83} -56.224 120.315 -264.43
+{asp b 84} -56.76 119.266 -260.844
+{val b 85} -53.84 121.367 -259.707
+{ala b 86} -55.186 124.39 -261.52
+{ser b 87} -58.59 123.906 -259.94
+{leu b 88} -57.02 123.495 -256.53
+{asn b 89} -54.99 126.64 -256.98
+{arg b 90} -58.08 128.604 -257.933
+{arg b 91} -59.943 127.24 -254.934
+{ile b 92} -57.06 128.09 -252.65
+{gln b 93} -56.947 131.637 -253.943
+{leu b 94} -60.673 132.04 -253.37
+{val b 95} -60.36 130.61 -249.886
+{glu b 96} -57.52 132.953 -249.067
+{glu b 97} -59.54 135.947 -250.197
+{glu b 98} -62.5 134.817 -248.115
+{leu b 99} -60.29 134.29 -245.104
+{asp b 100} -58.834 137.756 -245.43
+{arg b 101} -62.304 139.28 -245.61
+{ala b 102} -63.413 137.286 -242.594
+{gln b 103} -60.383 138.376 -240.63
+{glu b 104} -61.07 142.017 -241.404
+{arg b 105} -64.69 141.633 -240.34
+{leu b 106} -63.65 139.903 -237.147
+{ala b 107} -61.225 142.67 -236.31
+{thr b 108} -63.91 145.297 -236.83
+{ala b 109} -66.336 143.343 -234.68
+{leu b 110} -63.77 142.987 -231.936
+{gln b 111} -63.114 146.71 -231.93
+{lys b 112} -66.83 147.44 -231.736
+{leu b 113} -67.247 144.965 -228.916
+{glu b 114} -64.415 146.535 -226.977
+{glu b 115} -65.94 149.98 -227.37
+{ala b 116} -69.317 148.684 -226.263
+{glu b 117} -67.793 147.01 -223.245
+{lys b 118} -66.044 150.204 -222.234
+{ala b 119} -69.267 152.16 -222.58
+{ala b 120} -71.14 149.584 -220.555
+{asp b 121} -68.553 149.707 -217.81
+{glu b 122} -68.764 153.48 -217.666
+{ser b 123} -72.54 153.33 -217.53
+{glu b 124} -72.43 150.77 -214.76
+{arg b 125} -70.067 152.91 -212.74
+{gly b 126} -72.297 155.93 -213.197
+{met b 127} -75.34 153.94 -212.186
+{lys b 128} -73.61 152.685 -209.074
+{val b 129} -72.61 156.2 -208.114
+{ile b 130} -76.137 157.43 -208.673
+{glu b 131} -77.55 154.63 -206.58
+{ser b 132} -75.175 155.416 -203.75
+{arg b 133} -76.1 159.077 -203.9
+{ala b 134} -79.78 158.236 -203.89
+{gln b 135} -79.36 155.99 -200.884
+{lys b 136} -77.5 158.695 -199.015
+{asp b 137} -80.17 161.227 -199.874
+{glu b 138} -82.9 158.893 -198.71
+{glu b 139} -81.13 158.32 -195.416
+{lys b 140} -80.697 162.043 -194.916
+{met b 141} -84.34 162.664 -195.694
+{glu b 142} -85.424 160.035 -193.21
+{ile b 143} -83.237 161.554 -190.52
+{gln b 144} -84.6 165.003 -191.25
+{glu b 145} -88.154 163.75 -191.06
+{ile b 146} -87.5 162.12 -187.71
+{gln b 147} -85.93 165.294 -186.377
+{leu b 148} -88.85 167.36 -187.59
+{lys b 149} -91.32 165.05 -185.9
+{glu b 150} -89.413 165.26 -182.632
+{ala b 151} -89.276 169.03 -182.853
+{lys b 152} -92.99 169.236 -183.495
+{his b 153} -93.73 167.077 -180.472
+{ile b 154} -91.48 169.21 -178.29
+{ala b 155} -93.127 172.38 -179.525
+{glu b 156} -96.57 171.023 -178.744
+{asp b 157} -95.5 170.087 -175.224
+{ala b 158} -93.98 173.51 -174.68
+{asp b 159} -97.133 175.216 -175.863
+{arg b 160} -99.25 173.18 -173.467
+{lys b 161} -96.935 174.01 -170.58
+{tyr b 162} -97.016 177.687 -171.44
+{glu b 163} -100.796 177.704 -171.5
+{glu b 164} -100.946 176.043 -168.088
+{val b 165} -98.457 178.52 -166.676
+{ala b 166} -100.434 181.44 -168.024
+{arg b 167} -103.62 180.153 -166.424
+{lys b 168} -101.863 179.7 -163.09
+{leu b 169} -100.41 183.18 -163.275
+{val b 170} -103.81 184.683 -163.957
+{ile b 171} -105.31 182.875 -160.973
+{ile b 172} -102.47 184.022 -158.75
+{glu b 173} -102.895 187.6 -159.874
+{ser b 174} -106.6 187.513 -159.09
+{asp b 175} -105.915 186.087 -155.642
+{leu b 176} -103.29 188.72 -154.975
+{glu b 177} -105.663 191.49 -155.96
+{arg b 178} -108.34 190.14 -153.637
+{ala b 179} -105.85 189.87 -150.8
+{glu b 180} -104.673 193.41 -151.364
+{glu b 181} -108.223 194.71 -151.264
+{arg b 182} -108.9 192.83 -148.05
+{ala b 183} -105.715 194.15 -146.51
+{glu b 184} -106.62 197.7 -147.43
+{leu b 185} -110.05 197.312 -145.88
+{ser b 186} -108.54 195.85 -142.737
+{glu b 187} -106.05 198.677 -142.502
+{gly b 188} -108.8 201.247 -142.84
+{lys b 189} -110.825 199.53 -140.153
+{cys b 190} -107.82 199.37 -137.88
+{ala b 191} -107.123 203.043 -138.376
+{glu b 192} -110.71 203.907 -137.57
+{leu b 193} -110.6 201.74 -134.48
+{glu b 194} -107.377 203.34 -133.36
+{glu b 195} -108.83 206.79 -133.805
+{glu b 196} -111.906 205.81 -131.85
+{ile b 197} -109.78 204.33 -129.11
+{lys b 198} -107.694 207.465 -128.905
+{thr b 199} -110.793 209.597 -128.685
+{val b 200} -112.21 207.36 -126.
+{thr b 201} -108.984 207.5 -124.054
+{asn b 202} -108.93 211.263 -124.26
+{asn b 203} -112.514 211.43 -123.12
+{leu b 204} -111.79 209.075 -120.26
+{lys b 205} -108.816 211.135 -119.197
+{ser b 206} -110.88 214.28 -119.29
+{leu b 207} -113.613 212.61 -117.3
+{glu b 208} -111.125 211.385 -114.75
+{ala b 209} -109.66 214.84 -114.4
+{gln b 210} -113.1 216.313 -114.
+{ala b 211} -113.996 213.714 -111.42
+{glu b 212} -110.834 214.413 -109.487
+{lys b 213} -111.533 218.114 -109.567
+{tyr b 214} -115.08 217.524 -108.442
+{ser b 215} -113.915 215.316 -105.617
+{gln b 216} -111.44 217.93 -104.49
+{lys b 217} -114.107 220.587 -104.635
+{glu b 218} -116.49 218.413 -102.68
+{asp b 219} -113.88 217.773 -100.033
+{lys b 220} -113.165 221.466 -99.758
+{tyr b 221} -116.852 222.222 -99.523
+{glu b 222} -117.31 219.626 -96.827
+{glu b 223} -114.44 221.07 -94.837
+{glu b 224} -115.857 224.545 -95.216
+{ile b 225} -119.273 223.36 -94.146
+{lys b 226} -117.84 221.69 -91.08
+{val b 227} -115.965 224.843 -90.16
+{leu b 228} -119.074 226.92 -90.68
+{ser b 229} -121.106 224.595 -88.5
+{asp b 230} -118.546 224.805 -85.736
+{lys b 231} -118.5 228.58 -85.98
+{leu b 232} -122.27 228.713 -85.9
+{lys b 233} -122.385 226.547 -82.81
+{glu b 234} -119.85 228.767 -81.076
+{ala b 235} -121.785 231.86 -82.057
+{glu b 236} -125. 230.39 -80.75
+{thr b 237} -123.387 229.58 -77.42
+{arg b 238} -121.98 233.09 -77.175
+{ala b 239} -125.34 234.59 -78.01
+{glu b 240} -127.04 232.545 -75.328
+
+@kinemage 2
+@caption 
+Buried helices in the dimerization interface of the globular protein CAP (residues 109-132).  Sidechains in the core of the interface (heptad positions a and d) are shown in gold and orange.
+@onewidth 
+@matrix 
+.253843 -.219226 -.942074 -.96437 .017682 -.263966 .074526 .975514 -.206926 
+@2matrix 
+.955323 -.002125 -.295554 .002292 .999997 .000219 .295553 -.000887 .955326 
+@group {CAP A sub} 
+@vectorlist {Calpha} color=white
+{ca asn a 109} P 26.017 47.834 69.712
+{ca pro a 110} 25.283 46.062 66.428
+{ca asp a 111} 24.946 49.43 64.81
+{ca ile a 112} 28.576 49.406 63.536
+{ca leu a 113} 28.255 46.03 61.756
+{ca met a 114} 25.19 47.787 60.37
+{ca arg a 115} 27.504 50.553 58.97
+{ca leu a 116} 30.266 48.166 57.8
+{ca ser a 117} 27.6 46.178 55.84
+{ca ala a 118} 25.852 49.187 54.212
+{ca gln a 119} 29.334 49.666 52.65
+{ca met a 120} 29.86 46.028 51.49
+{ca ala a 121} 26.4 46.674 50.01
+{ca arg a 122} 27.226 49.765 47.896
+{ca arg a 123} 30.483 48.12 46.815
+{ca leu a 124} 28.675 45.315 45.022
+{ca gln a 125} 26.424 47.545 42.845
+{ca val a 126} 29.478 49.553 41.94
+{ca thr a 127} 31.6 46.46 41.13
+{ca ser a 128} 28.708 44.68 39.333
+{ca glu a 129} 28.31 48.015 37.516
+{ca lys a 130} 31.982 47.53 36.59
+{ca val a 131} 31.906 43.765 35.87
+{ca gly a 132} 28.662 44.747 34.195
+@vectorlist {sc a con} color=orange
+{ca leu a 113} P 28.255 46.03 61.756 {cb leu a 113} 27.95 44.648 62.324
+{cg leu a 113} 27.48 43.72 61.208
+{cd1 leu a 113} 28.62 43.565 60.23
+{cg leu a 113} P 27.48 43.72 61.208 {cd2 leu a 113} 27.103 42.357 61.703
+{ca met a 120} P 29.86 46.028 51.49 {cb met a 120} 29.855 44.808 52.407
+{cg met a 120} 31.105 44.66 53.22
+{sd met a 120} 30.879 43.268 54.41
+{ce met a 120} 30.498 41.989 53.22
+{ca thr a 127} P 31.599 46.459 41.13 {cb thr a 127} 32.112 45.523 42.292
+{og1 thr a 127} 33.036 46.33 43.082
+{cb thr a 127} P 32.112 45.523 42.292 {cg2 thr a 127} 32.573 44.17 41.812
+@vectorlist {sc d con} color=gold
+{ca pro a 110} P 25.283 46.062 66.428 {cb pro a 110} 24.014 45.174 66.357
+{cg pro a 110} 24.008 44.641 67.794
+{n  pro a 110} P 25.288 46.572 67.807 {cd pro a 110} 24.208 45.94 68.614
+{cg pro a 110} P 24.008 44.64 67.794 {cd pro a 110} 24.208 45.94 68.614
+{ca ser a 117} P 27.6 46.178 55.839 {cb ser a 117} 26.436 45.469 56.553
+{og ser a 117} 26.909 44.629 57.55
+{ca leu a 124} P 28.675 45.315 45.022 {cb leu a 124} 27.736 44.377 45.822
+{cg leu a 124} 28.413 43.046 46.144
+{cd1 leu a 124} 27.663 42.19 47.117
+{cg leu a 124} P 28.413 43.046 46.144 {cd2 leu a 124} 28.588 42.426 44.747
+{ca val a 131} P 31.906 43.765 35.87 {cb val a 131} 31.339 42.704 36.814
+{cg1 val a 131} 30.98 41.373 36.21
+{cb val a 131} P 31.34 42.704 36.814 {cg2 val a 131} 32.03 42.547 38.123
+@vectorlist off {sc out} color=cyan
+{ca asn a 109} P 26.017 47.834 69.712 {cb asn a 109} 26.67 49.206 69.753
+{cg asn a 109} 25.954 50.364 69.13
+{od1 asn a 109} 26.05 51.45 69.8
+{cg asn a 109} P 25.954 50.364 69.13 {nd2 asn a 109} 25.29 50.235 68.022
+{ca asp a 111} P 24.946 49.43 64.81 {cb asp a 111} 24.162 50.608 65.343
+{cg asp a 111} 23.488 51.282 64.15
+{od1 asp a 111} 22.44 50.728 63.803
+{cg asp a 111} P 23.488 51.282 64.15 {od2 asp a 111} 24.145 52.233 63.644
+{ca ile a 112} P 28.576 49.406 63.536 {cb ile a 112} 29.96 49.504 64.144
+{cg1 ile a 112} 30.313 48.225 64.93
+{cb ile a 112} P 29.96 49.504 64.144 {cg2 ile a 112} 30.308 50.743 65.003
+{cg1 ile a 112} P 30.313 48.225 64.93 {cd1 ile a 112} 29.55 48.166 66.25
+{ca met a 114} P 25.19 47.787 60.37 {cb met a 114} 23.818 47.966 60.964
+{cg met a 114} 22.855 47.035 60.22
+{sd met a 114} 21.34 47.85 59.767
+{ce met a 114} 21.797 49.37 59.035
+{ca arg a 115} P 27.504 50.553 58.97 {cb arg a 115} 28.302 51.45 59.923
+{cg arg a 115} 28. 52.93 59.743
+{cd arg a 115} 26.848 53.313 60.618
+{ne arg a 115} 27.07 54.466 61.47
+{cz arg a 115} 27.758 54.536 62.608
+{nh1 arg a 115} 28.212 53.456 63.28
+{cz arg a 115} P 27.758 54.536 62.608 {nh2 arg a 115} 28.046 55.72 63.133
+{ca leu a 116} P 30.266 48.166 57.8 {cb leu a 116} 31.074 47.28 58.693
+{cg leu a 116} 32.092 46.329 58.12
+{cd1 leu a 116} 33.492 46.89 58.034
+{cg leu a 116} P 32.092 46.33 58.12 {cd2 leu a 116} 32.204 45.078 58.988
+{ca ala a 118} P 25.852 49.187 54.212 {cb ala a 118} 25.315 50.48 54.722
+{ca gln a 119} P 29.334 49.666 52.65 {cb gln a 119} 30.55 50.148 53.418
+{cg gln a 119} 30.606 51.657 53.583
+{cd gln a 119} 31.828 52.072 54.387
+{oe1 gln a 119} 31.918 53.185 54.834
+{cd gln a 119} P 31.828 52.072 54.387 {ne2 gln a 119} 32.728 51.13 54.504
+{ca ala a 121} P 26.4 46.674 50.01 {cb ala a 121} 25.168 47.116 50.767
+{ca arg a 122} P 27.226 49.765 47.896 {cb arg a 122} 27.65 51.093 48.522
+{cg arg a 122} 28.088 52.208 47.639
+{cd arg a 122} 27.944 53.524 48.328
+{ne arg a 122} 27.497 54.643 47.484
+{cz arg a 122} 27.272 55.865 48.027
+{nh1 arg a 122} 27.99 56.35 49.046
+{cz arg a 122} P 27.272 55.865 48.027 {nh2 arg a 122} 26.267 56.647 47.6
+{ca arg a 123} P 30.483 48.12 46.815 {cb arg a 123} 31.572 47.584 47.752
+{cg arg a 123} 32.187 48.636 48.644
+{cd arg a 123} 33.13 48.15 49.714
+{ne arg a 123} 33.868 49.284 50.146
+{cz arg a 123} 34.44 49.643 51.266
+{nh1 arg a 123} 34.96 48.828 52.18
+{cz arg a 123} P 34.44 49.643 51.266 {nh2 arg a 123} 34.48 50.965 51.537
+{ca gln a 125} P 26.424 47.545 42.845 {cb gln a 125} 25.3 48.53 43.04
+{cg gln a 125} 25.093 49.52 41.86
+{cd gln a 125} 23.806 49.448 41.09
+{oe1 gln a 125} 23.662 49.367 39.85
+{cd gln a 125} P 23.806 49.448 41.09 {ne2 gln a 125} 22.715 49.486 41.885
+{ca val a 126} P 29.478 49.553 41.94 {cb val a 126} 30.153 50.49 42.95
+{cg1 val a 126} 31.477 50.97 42.347
+{cb val a 126} P 30.153 50.49 42.95 {cg2 val a 126} 29.337 51.66 43.432
+{ca ser a 128} P 28.708 44.68 39.333 {cb ser a 128} 27.35 44.35 39.95
+{og ser a 128} 27.436 43.202 40.795
+{ca glu a 129} P 28.31 48.015 37.516 {cb glu a 129} 28.29 49.43 37.995
+{cg glu a 129} 27.674 50.598 37.328
+{cd glu a 129} 27.36 51.882 38.012
+{oe1 glu a 129} 26.467 52.167 38.807
+{cd glu a 129} P 27.36 51.882 38.012 {oe2 glu a 129} 28.084 52.857 37.64
+{ca lys a 130} P 31.982 47.53 36.59 {cb lys a 130} 33.175 47.45 37.516
+{cg lys a 130} 33.743 48.76 38.034
+{cd lys a 130} 35.257 48.733 38.024
+{ce lys a 130} 35.88 50.097 37.93
+{nz lys a 130} 35.392 50.996 39.035
+@group {CAP B sub} 
+@vectorlist {Calpha} color=greentint
+{ca asn b 109} P 19.66 39.08 67.633
+{ca pro b 110} 22.306 40.455 65.243
+{ca asp b 111} 23.556 36.9 64.827
+{ca ile b 112} 21.745 37.188 61.455
+{ca leu b 113} 23.127 40.464 60.024
+{ca met b 114} 26.374 38.587 60.454
+{ca arg b 115} 24.98 35.914 58.093
+{ca leu b 116} 23.867 38.255 55.263
+{ca ser b 117} 26.97 40.42 55.646
+{ca ala b 118} 29.35 37.453 55.167
+{ca gln b 119} 27.273 36.362 52.13
+{ca met b 120} 27.984 39.856 50.836
+{ca ala b 121} 31.774 39.462 51.283
+{ca arg b 122} 31.953 36.346 49.11
+{ca arg b 123} 29.776 38.19 46.634
+{ca leu b 124} 31.84 41.408 46.62
+{ca gln b 125} 34.96 39.107 46.516
+{ca val b 126} 33.96 36.958 43.544
+{ca thr b 127} 32.516 39.92 41.61
+{ca ser b 128} 35.84 41.538 42.286
+{ca glu b 129} 37.46 38.448 40.664
+{ca lys b 130} 35.365 38.584 37.467
+{ca val b 131} 36.425 42.153 36.547
+{ca gly b 132} 39.706 40.426 36.944
+@vectorlist {sc a con} color=orange
+{ca leu b 113} P 23.127 40.464 60.024 {cb leu b 113} 23.297 41.74 60.834
+{cg leu b 113} 23.147 43.096 60.228
+{cd1 leu b 113} 24.04 44.153 60.822
+{cg leu b 113} P 23.147 43.096 60.228 {cd2 leu b 113} 23.323 43.003 58.724
+{ca met b 120} P 27.984 39.856 50.836 {cb met b 120} 27.552 41.064 51.734
+{cg met b 120} 26.074 41.286 51.672
+{sd met b 120} 25.667 43.013 52.203
+{ce met b 120} 25.094 43.61 50.61
+{ca thr b 127} P 32.516 39.92 41.61 {cb thr b 127} 31.346 40.863 42.018
+{og1 thr b 127} 30.557 40.07 42.983
+{cb thr b 127} P 31.346 40.863 42.018 {cg2 thr b 127} 30.502 41.31 40.828
+@vectorlist {sc d con} color=gold
+{ca pro b 110} P 22.306 40.455 65.243 {cb pro b 110} 23.37 41.394 65.865
+{cg pro b 110} 23.528 40.674 67.22
+{n  pro b 110} P 21.458 40.1 66.365 {cd pro b 110} 22.01 40.697 67.61
+{cg pro b 110} P 23.528 40.674 67.22 {cd pro b 110} 22.01 40.697 67.61
+{ca ser b 117} P 26.97 40.42 55.646 {cb ser b 117} 27.35 41.19 56.88
+{og ser b 117} 27.097 42.583 56.772
+{ca leu b 124} P 31.84 41.408 46.62 {cb leu b 124} 32.083 42.22 47.897
+{cg leu b 124} 33.23 43.213 47.853
+{cd1 leu b 124} 33.227 44.153 46.674
+{cg leu b 124} P 33.23 43.213 47.853 {cd2 leu b 124} 33.15 44.083 49.12
+{ca val b 131} P 36.425 42.153 36.547 {cb val b 131} 36.27 43.432 37.322
+{cg1 val b 131} 36.984 44.653 36.643
+{cb val b 131} P 36.27 43.432 37.322 {cg2 val b 131} 34.917 43.973 37.598
+@vectorlist off {sc out} color=sea
+{ca asn b 109} P 19.66 39.079 67.633 {cb asn b 109} 19.184 37.613 67.593
+{cg asn b 109} 20.3 36.634 67.326
+{od1 asn b 109} 20.4 36.052 66.248
+{cg asn b 109} P 20.3 36.634 67.326 {nd2 asn b 109} 21.184 36.446 68.32
+{ca asp b 111} P 23.556 36.9 64.827 {cb asp b 111} 23.122 35.747 65.68
+{cg asp b 111} 23.757 35.378 66.97
+{od1 asp b 111} 23.716 36.045 68.024
+{cg asp b 111} P 23.757 35.378 66.97 {od2 asp b 111} 24.304 34.236 67.01
+{ca ile b 112} P 21.745 37.188 61.455 {cb ile b 112} 20.245 36.766 61.346
+{cg1 ile b 112} 20.083 35.83 60.128
+{cb ile b 112} P 20.245 36.766 61.346 {cg2 ile b 112} 19.274 37.943 61.24
+{cg1 ile b 112} P 20.083 35.829 60.128 {cd1 ile b 112} 19.327 34.514 60.36
+{ca met b 114} P 26.374 38.587 60.454 {cb met b 114} 26.662 37.768 61.664
+{cg met b 114} 27.93 37.812 62.42
+{sd met b 114} 29.016 39.19 62.03
+{ce met b 114} 30.518 38.874 62.93
+{ca arg b 115} P 24.98 35.914 58.093 {cb arg b 115} 23.765 35.057 58.488
+{cg arg b 115} 24.02 33.646 58.978
+{cd arg b 115} 22.834 33.156 59.79
+{ne arg b 115} 23.115 31.937 60.548
+{cz arg b 115} 23.326 30.805 59.858
+{nh1 arg b 115} 22.543 30.355 58.892
+{cz arg b 115} P 23.326 30.805 59.858 {nh2 arg b 115} 24.452 30.132 60.11
+{ca leu b 116} P 23.867 38.255 55.263 {cb leu b 116} 22.64 39.132 55.41
+{cg leu b 116} 22.55 40.413 54.627
+{cd1 leu b 116} 21.977 40.12 53.238
+{cg leu b 116} P 22.55 40.413 54.627 {cd2 leu b 116} 21.622 41.433 55.226
+{ca ala b 118} P 29.35 37.453 55.167 {cb ala b 118} 29.497 36.274 56.097
+{ca gln b 119} P 27.273 36.362 52.13 {cb gln b 119} 25.78 36.12 52.19
+{cg gln b 119} 25.347 34.798 52.815
+{cd gln b 119} 24.124 34.24 52.212
+{oe1 gln b 119} 23.322 34.92 51.57
+{cd gln b 119} P 24.124 34.24 52.212 {ne2 gln b 119} 23.926 32.93 52.358
+{ca ala b 121} P 31.774 39.462 51.283 {cb ala b 121} 32.592 39.23 52.507
+{ca arg b 122} P 31.953 36.346 49.11 {cb arg b 122} 31.082 35.09 49.383
+{cg arg b 122} 31.865 34.028 50.163
+{cd arg b 122} 31.652 32.63 49.806
+{ne arg b 122} 32.492 32.073 48.758
+{cz arg b 122} 32.19 32.38 47.48
+{nh1 arg b 122} 31.745 31.456 46.628
+{cz arg b 122} P 32.19 32.38 47.48 {nh2 arg b 122} 32.37 33.653 47.11
+{ca arg b 123} P 29.776 38.19 46.634 {cb arg b 123} 28.377 38.634 46.916
+{cg arg b 123} 27.32 37.875 46.138
+{cd arg b 123} 26.326 37.265 47.002
+{ne arg b 123} 25.242 38.13 47.52
+{cz arg b 123} 24.163 37.37 47.79
+{nh1 arg b 123} 24.18 36.038 47.95
+{cz arg b 123} P 24.163 37.37 47.79 {nh2 arg b 123} 23. 37.96 47.815
+{ca gln b 125} P 34.96 39.107 46.516 {cb gln b 125} 35.05 37.952 47.523
+{cg gln b 125} 36.27 37.576 48.273
+{cd gln b 125} 36.192 36.233 49.
+{oe1 gln b 125} 36.204 35.135 48.4
+{cd gln b 125} P 36.192 36.233 49. {ne2 gln b 125} 36.134 36.25 50.36
+{ca val b 126} P 33.96 36.958 43.544 {cb val b 126} 33.02 35.767 43.768
+{cg1 val b 126} 32.196 35.248 42.61
+{cb val b 126} P 33.02 35.767 43.768 {cg2 val b 126} 33.764 34.596 44.432
+{ca ser b 128} P 35.84 41.538 42.286 {cb ser b 128} 36.485 41.695 43.667
+{og ser b 128} 36.166 42.98 44.137
+{ca glu b 129} P 37.461 38.448 40.664 {cb glu b 129} 37.536 37.037 41.178
+{cg glu b 129} 37.825 35.817 40.304
+{cd glu b 129} 37.9 34.516 41.077
+{oe1 glu b 129} 37.17 34.23 42.032
+{cd glu b 129} P 37.9 34.516 41.077 {oe2 glu b 129} 38.803 33.744 40.666
+{ca lys b 130} P 35.365 38.584 37.467 {cb lys b 130} 33.868 38.302 37.32
+{cg lys b 130} 33.443 36.894 36.915
+{cd lys b 130} 34.406 35.81 37.382
+{ce lys b 130} 34.353 35.673 38.9
+{nz lys b 130} 34.354 34.227 39.262
+
+@kinemage 3
+@caption 
+Leucine zipper peptide dimer - overview from side.  Calphas of chain A are white chain B yellowtint; sidechains are colored by their heptad position: Leu (d) in orange; Val (a) in gold, with hotpink Asn 16; e and g in skyblue; and b, c, and f in cyan.  Be sure to Reset2 to the end view, zoom in, and translate through the structure; see the text window for detailed instructions.
+@onewidth
+@matrix 
+-.382609 .786283 -.485149 -.784249 .001206 .620445 .488431 .617865 .61618 
+@2matrix 
+-.409699 .413261 .813242 -.733 -.679811 -.023817 .543009 -.605864 .581438 
+@group {Calpha}
+@vectorlist {A ca} color= white 
+{ca arg 1} P 38.127 14.684 15.695 
+{ca met 2} 36.66 18.155 15.84
+{ca lys 3} 37.33 19.06 12.267
+{ca gln 4} 35.67 15.982 10.84
+{ca leu 5} 32.643 16.6 13.126
+{ca glu 6} 32.395 20.303 12.225
+{ca asp 7} 32.448 19.407 8.572
+{ca lys 8} 29.714 16.773 9.066
+{ca val 9} 27.517 19.463 10.67
+{ca glu 10} 28.153 21.876 7.674
+{ca glu 11} 27.355 19.15 5.237
+{ca leu 12} 24.14 18.084 6.963
+{ca leu 13} 22.953 21.628 7.228
+{ca ser 14} 23.635 22.12 3.513
+{ca lys 15} 21.673 18.905 2.595
+{ca asn 16} 18.92 20.03 4.916
+{ca tyr 17} 18.583 23.458 3.27
+{ca his 18} 18.464 21.654 -0.143
+{ca leu 19} 15.562 19.515 1.148
+{ca glu 20} 13.734 22.442 2.62
+{ca asn 21} 14.082 24.25 -.792
+{ca glu 22} 12.464 21.235 -2.495
+{ca val 23} 9.567 21.098 .055
+{ca ala 24} 8.696 24.74 -.647
+{ca arg 25} 8.757 24.218 -4.31
+{ca leu 26} 6.58 21.183 -3.91
+{ca lys 27} 4.334 23.132 -1.617
+{ca lys 28} 3.872 25.752 -4.34
+{ca leu 29} 2.917 22.842 -6.655
+{ca val 30} .184 21.71 -4.154
+{ca gly 31} -1.672 24.948 -4.007
+@vectorlist {B ca} color=paleyellow
+{ca arg 1} P 32.954 20.476 22.253
+{ca met 2} 33.142 16.905 20.93
+{ca lys 3} 29.997 15.7 22.554
+{ca gln 4} 27.846 18.716 21.617
+{ca leu 5} 28.993 18.455 17.966
+{ca glu 6} 28.047 14.698 17.988
+{ca asp 7} 24.653 15.646 19.293
+{ca lys 8} 24.16 18.326 16.627
+{ca val 9} 25.022 15.78 13.85
+{ca glu 10} 22.418 13.406 15.44
+{ca glu 11} 19.857 16.105 15.505
+{ca leu 12} 20.537 17.187 11.822
+{ca leu 13} 20.506 13.546 10.735
+{ca ser 14} 16.977 13.025 12.308
+{ca lys 15} 15.768 16.242 10.722
+{ca asn 16} 17.148 15.287 7.314
+{ca tyr 17} 15.212 11.918 7.396
+{ca his 18} 12.044 13.664 8.32
+{ca leu 19} 12.542 16.087 5.334
+{ca glu 20} 13.32 13.222 2.974
+{ca asn 21} 10.096 11.435 4.006
+{ca glu 22} 8.192 14.685 3.595
+{ca val 23} 9.67 15.232 .157
+{ca ala 24} 8.7 11.725 -.835
+{ca arg 25} 5.052 12.23 .462
+{ca leu 26} 4.613 15.62 -1.37
+{ca lys 27} 6.086 14.333 -4.63
+{ca lys 28} 3.73 11.297 -4.703
+{ca leu 29} .8 13.434 -3.964
+{ca val 30} 1.817 16.156 -6.362
+{ca gly 31} 3.33 14.592 -9.406
+@group {axes} off
+@vector {A axis} color=white
+{A 3.5} P 35.728 17.478 12.887
+{A 5.5} 33.155 18.128 11.43
+{A 7.5} 30.63 18.826 9.87
+{A 9.5} 28.124 19.512 8.316
+{A 11.5} 25.656 19.945 6.686
+{A 13.5} 23.158 20.458 5.15
+{A 15.5} 20.602 20.842 3.612
+{A 17.5} 17.953 21.34 2.192
+{A 19.5} 15.183 21.814 .922
+{A 21.5} 12.536 22.346 -.425
+{A 23.5} 9.8 22.82 -1.586
+{A 25.5} 7.143 23.19 -2.874
+{A 27.5} 4.356 23.465 -3.868
+@vector {B axis} color=yellowtint
+{B 3.5} P 29.853 17.42 20.934
+{B 5.5} 27.592 16.836 19.
+{B 7.5} 25.263 16.285 17.134
+{B 9.5} 23.01 15.704 15.228
+{B 11.5} 20.714 15.292 13.373
+{B 13.5} 18.535 14.783 11.43
+{B 15.5} 16.322 14.44 9.354
+{B 17.5} 14.162 14. 7.222
+{B 19.5} 12.158 13.79 4.992
+{B 21.5} 10.1 13.563 2.854
+{B 23.5} 8.086 13.485 .667
+{B 25.5} 5.94 13.536 -1.48
+{B 27.5} 3.99 13.585 -3.738
+@vector {ctr axis} color=greentint <L5-L26> 
+{ctr ax} P 36.262 17.353 19.183  30.818 17.528 15.546
+L 18.207 17.965 6.453  5.596 18.402 -2.64 {ctr ax} .152 18.577 -6.277
+@group {side ch}
+@vectorlist {b,c,f sc} color=cyan
+{ca lys 3} P 37.33 19.06 12.267 {cb lys 3} 38.693 18.97 11.607
+{cg lys 3} 38.865 19.967 10.478
+{cd lys 3} 40.277 19.857 9.96
+{ce lys 3} 41.133 19.056 10.944
+{nz lys 3} 42.277 18.355 10.336
+{cd gln 4} P 36.35 13.638 8.622 {ne2 gln 4} 36.207 12.357 8.333
+{cd gln 4} P 36.35 13.638 8.622 {oe1 gln 4} 36.06 14.530 7.794
+{cg gln 4} P 36.973 13.932 10.002 {cd gln 4} 36.35 13.638 8.622
+{cb gln 4} P 36.016 14.498 11.074 {cg gln 4} 36.973 13.932 10.002
+{ca gln 4} P 35.67 15.982 10.84 {cb gln 4} 36.016 14.498 11.074
+{ca asp 7} P 32.448 19.407 8.572 {cb asp 7} 33.61 18.684 7.924
+{cg asp 7} 34.776 19.59 7.745
+{od1 asp 7} 34.733 20.818 7.83
+{cg asp 7} P 34.776 19.59 7.745 {od2 asp 7} 35.858 18.89 7.598
+{ca glu 10} P 28.153 21.876 7.674 {cb glu 10} 29.542 22.47 7.407
+{cg glu 10} 30.08 23.270 8.632
+{cd glu 10} 31.53 23.665 8.413
+{oe1 glu 10} 32.186 23.223 7.495
+{cd glu 10} P 31.53 23.665 8.413 {oe2 glu 10} 32.014 24.54 9.265
+{ca glu 11} P 27.355 19.15 5.237 {cb glu 11} 28.092 17.82 5.028
+{cg glu 11} 27.313 16.745 4.213
+{cd glu 11} 28.113 15.46 4.232
+{oe1 glu 11} 28.883 15.228 5.116
+{cd glu 11} P 28.113 15.46 4.232 {oe2 glu 11} 28.04 14.694 3.17
+{ca ser 14} P 23.635 22.12 3.513 {cb ser 14} 25.053 21.978 3.015
+{og ser 14} 25.028 22.417 1.696
+{ca tyr 17} P 18.583 23.458 3.27 {cb tyr 17} 19.767 24.427 3.22
+{cg tyr 17} 19.852 25.203 4.516
+{cd1 tyr 17} 18.732 25.309 5.312
+{ce1 tyr 17} 18.76 26.03 6.522
+{cg tyr 17} P 19.852 25.203 4.516 {cd2 tyr 17} 21.034 25.85 4.94
+{ce2 tyr 17} 21.07 26.603 6.098
+{ce1 tyr 17} P 18.76 26.03 6.522 {cz tyr 17} 19.922 26.66 6.918
+{oh tyr 17} 19.958 27.387 8.08
+{ce2 tyr 17} P 21.07 26.603 6.098 {cz tyr 17} 19.922 26.66 6.918
+{ca his 18} P 18.464 21.654 -.143 {cb his 18} 19.42 20.613 -.782
+{cg his 18} 18.81 20.08 -2.06
+{cd2 his 18} 18.57 20.72 -3.238
+{cg his 18} P 18.81 20.08 -2.06 {nd1 his 18} 18.302 18.787 -2.186
+{ce1 his 18} 17.794 18.68 -3.415
+{ne2 his 18} 17.93 19.832 -4.065
+{cd2 his 18} 18.57 20.72 -3.238
+{ca asn 21} P 14.082 24.25 -.792 {cb asn 21} 15.37 24.586 -1.597
+{cg asn 21} 16.196 25.65 -.906
+{od1 asn 21} 15.673 26.347 -.032
+{cg asn 21} P 16.196 25.65 -.906 {nd2 asn 21} 17.494 25.722 -1.216
+{ca ala 24} P 8.696 24.74 -.647 {cb ala 24} 9.749 25.784 -.402
+{ca arg 25} P 8.757 24.218 -4.31 {cb arg 25} 10.014 23.74 -5.01
+{cg arg 25} 9.894 23.276 -6.443
+{cd arg 25} 10.867 22.15 -6.77
+{ne arg 25} 10.165 21.277 -7.66
+{cz arg 25} 10.132 19.966 -7.72
+{nh1 arg 25} 9.364 19.415 -8.63
+{cz arg 25} P 10.132 19.966 -7.72 {nh2 arg 25} 10.852 19.185 -6.915
+{ca lys 28} P 3.872 25.752 -4.34 {cb lys 28} 5.106 26.474 -4.846
+{cg lys 28} 4.792 27.465 -5.937
+{cd lys 28} 5.94 27.568 -6.93
+{ce lys 28} 5.568 27.375 -8.4
+{nz lys 28} 6.746 27.234 -9.285
+{ca lys 3} P 29.997 15.7 22.554 {cb lys 3} 29.92 15.16 23.96
+{cg lys 3} 30.7 13.862 24.217
+{cd lys 3} 31.11 13.743 25.71
+{ce lys 3} 30.39 12.690 26.602
+{nz lys 3} 30.08 13.095 28.015
+{ca gln 4} P 27.846 18.716 21.617 {cb gln 4} 28.164 20.13 22.097
+{cg gln 4} 27.757 20.263 23.57
+{cd gln 4} 27.464 21.684 24.02
+{oe1 gln 4} 26.806 22.478 23.338
+{cd gln 4} P 27.464 21.684 24.02 {ne2 gln 4} 27.942 22.014 25.207
+{ca asp 7} P 24.653 15.646 19.293 {cb asp 7} 24.307 16.28 20.662
+{cg asp 7} 24.64 15.433 21.863
+{od1 asp 7} 24.822 14.213 21.835
+{cg asp 7} P 24.64 15.433 21.863 {od2 asp 7} 24.83 16.185 22.92
+{ca glu 10} P 22.418 13.406 15.44 {cb glu 10} 22.57 12.775 16.83
+{cg glu 10} 23.958 12.065 16.94
+{cd glu 10} 24.18 11.567 18.345
+{oe1 glu 10} 23.427 11.872 19.202
+{cd glu 10} P 24.18 11.567 18.345 {oe2 glu 10} 25.146 10.707 18.56
+{ca glu 11} P 19.857 16.105 15.505 {cb glu 11} 19.99 17.394 16.34
+{cg glu 11} 19.81 17.122 17.863
+{cd glu 11} 20.296 18.194 18.846
+{oe1 glu 11} 20.702 19.3 18.518
+{cd glu 11} P 20.296 18.194 18.846 {oe2 glu 11} 20.218 17.813 20.114
+{ca ser 14} P 16.977 13.025 12.308 {cb ser 14} 16.79 13.235 13.8
+{og ser 14} 15.457 12.993 14.11
+{ca tyr 17} P 15.212 11.918 7.396 {cb tyr 17} 15.426 10.776 8.407
+{cg tyr 17} 16.71 10.044 8.203
+{cd1 tyr 17} 17.335 10.084 6.967
+{ce1 tyr 17} 18.527 9.39 6.73
+{cg tyr 17} P 16.71 10.044 8.203 {cd2 tyr 17} 17.295 9.33 9.258
+{ce2 tyr 17} 18.458 8.617 9.04
+{ce1 tyr 17} P 18.527 9.39 6.73 {cz tyr 17} 19.063 8.652 7.77
+{oh tyr 17} 20.24 8. 7.615
+{ce2 tyr 17} P 18.458 8.617 9.04 {cz tyr 17} 19.063 8.652 7.77
+{ca his 18} P 12.044 13.664 8.32 {cb his 18} 11.818 14.546 9.56
+{cg his 18} 10.602 15.373 9.383
+{cd2 his 18} 9.307 14.967 9.26
+{cg his 18} P 10.602 15.373 9.383 {nd1 his 18} 10.656 16.76 9.27
+{ce1 his 18} 9.4 17.154 9.072
+{cd2 his 18} P 9.307 14.967 9.26 {ne2 his 18} 8.57 16.104 9.075
+{ce1 his 18} P 9.4 17.154 9.072 {ne2 his 18} 8.57 16.104 9.075
+{ca asn 21} P 10.096 11.435 4.006 {cb asn 21} 9.762 10.767 5.402
+{cg asn 21} 10.846 9.88 6.09
+{od1 asn 21} 11.946 9.57 5.582
+{cg asn 21} P 10.846 9.88 6.09 {nd2 asn 21} 10.538 9.478 7.314
+{ca ala 24} P 8.7 11.725 -.835 {cb ala 24} 9.236 10.518 -.105
+{ca arg 25} P 5.052 12.23 .462 {cb arg 25} 4.666 12.607 1.898
+{cg arg 25} 4.742 11.434 2.88
+{cd arg 25} 3.944 11.647 4.18
+{ne arg 25} 4.79 12.048 5.31
+{cz arg 25} 4.757 13.214 5.978
+{nh1 arg 25} 5.61 13.455 6.983
+{cz arg 25} P 4.757 13.214 5.978 {nh2 arg 25} 3.87 14.156 5.643
+{ca lys 28} P 3.73 11.297 -4.703 {cb lys 28} 3.682 10.178 -3.632
+{cg lys 28} 2.817 8.988 -4.033
+{cd lys 28} 3.2 7.636 -3.433
+{ce lys 28} 3.947 7.66 -2.113
+{nz lys 28} 4.214 6.285 -1.67
+@vectorlist {d: Leu} color=orange
+{ca leu 5} P 32.643 16.6 13.126 {cb leu 5} 32.46 16.42 14.67
+{cg leu 5} 32.495 15.02 15.313
+{cd1 leu 5} 32.86 15.235 16.79
+{cg leu 5} P 32.495 15.02 15.313 {cd2 leu 5} 31.102 14.392 15.26
+{ca leu 12} P 24.14 18.084 6.963 {cb leu 12} 23.9 17.347 8.3
+{cg leu 12} 24.408 15.918 8.203
+{cd1 leu 12} 24.58 15.3 9.56
+{cg leu 12} P 24.408 15.918 8.203 {cd2 leu 12} 23.332 15.098 7.556
+{ca leu 19} P 15.562 19.515 1.148 {cb leu 19} 15.57 18.356 2.134
+{cg leu 19} 16.384 17.163 1.675
+{cd1 leu 19} 16.71 16.315 2.883
+{cg leu 19} P 16.384 17.163 1.675 {cd2 leu 19} 15.594 16.277 .73
+{ca leu 26} P 6.58 21.183 -3.91 {cb leu 26} 6.845 19.727 -3.578
+{cg leu 26} 7.913 19.102 -4.402
+{cd1 leu 26} 8.753 18.277 -3.443
+{cg leu 26} P 7.913 19.102 -4.402 {cd2 leu 26} 7.178 18.174 -5.34
+{ca leu 5} P 28.993 18.455 17.966 {cb leu 5} 30.46 18.668 17.427
+{cg leu 5} 31.045 20.115 17.486
+{cd1 leu 5} 32.538 20.142 17.182
+{cg leu 5} P 31.045 20.115 17.486 {cd2 leu 5} 30.427 21.023 16.45
+{ca leu 12} P 20.537 17.187 11.822 {cb leu 12} 21.825 17.848 11.224
+{cg leu 12} 22. 19.29 11.694
+{cd1 leu 12} 23.31 19.983 11.275
+{cg leu 12} P 22. 19.29 11.694 {cd2 leu 12} 20.78 20.092 11.305
+{ca leu 19} P 12.542 16.087 5.334 {cb leu 19} 13.622 17.152 5.14
+{cg leu 19} 13.501 18.332 6.097
+{cd1 leu 19} 14.723 19.256 5.994
+{cg leu 19} P 13.5 18.332 6.097 {cd2 leu 19} 12.203 19.1 5.877
+{ca leu 26} P 4.613 15.62 -1.37 {cb leu 26} 5.357 16.95 -1.034
+{cg leu 26} 4.935 17.73 .23
+{cd1 leu 26} 5.716 19.032 .37
+{cg leu 26} P 4.935 17.73 .23 {cd2 leu 26} 3.495 18.16 .132
+@vectorlist {Asn 16} color=hotpink
+{ca asn 16} P 17.148 15.287 7.314 {cb asn 16} 18.628 14.868 7.155
+{cg asn 16} 19.12 14.552 5.75
+{od1 asn 16} 19.236 13.376 5.377
+{cg asn 16} P 19.12 14.552 5.75 {nd2 asn 16} 19.58 15.576 5.036
+{ca asn 16} P 18.92 20.03 4.916 {cb asn 16} 18.758 20.06 6.426
+{cg asn 16} 18.773 18.704 7.105
+{od1 asn 16} 18.912 17.604 6.512
+{cg asn 16} P 18.773 18.704 7.105 {nd2 asn 16} 18.717 18.82 8.413
+@vectorlist {a: Val} color=gold
+{ca met 2} P 36.66 18.155 15.84 {cb met 2} 37.212 19.245 16.74
+{cg met 2} 36.06 19.824 17.54
+{sd met 2} 36.542 20.556 19.116
+{ce met 2} 38.18 21.188 18.664
+{ca val 9} P 27.517 19.463 10.67 {cb val 9} 27.758 20.28 12.002
+{cg1 val 9} 26.726 21.386 12.216
+{cb val 9} P 27.758 20.28 12.002 {cg2 val 9} 27.75 19.406 13.26
+{ca val 23} P 9.567 21.098 0.055 {cb val 23} 9.673 20.85 1.6
+{cg1 val 23} 8.345 21.088 2.316
+{cb val 23} P 9.673 20.85 1.6 {cg2 val 23} 10.167 19.442 1.954
+{ca val 30} P .184 21.71 -4.154 {cb val 30} .49 21.29 -2.708
+{cg1 val 30} -.783 21.014 -1.924
+{cb val 30} P .49 21.29 -2.708 {cg2 val 30} 1.285 20. -2.74
+{ca met 2} P 33.142 16.905 20.93 {cb met 2} 34.172 15.858 21.36
+{cg met 2} 34.306 14.670 20.426
+{sd met 2} 35.754 13.637 20.782
+{ce met 2} 35.522 12.378 19.5
+{ca val 9} P 25.022 15.78 13.85 {cb val 9} 26.336 14.944 13.536
+{cg1 val 9} 26.186 13.72 12.597
+{cb val 9} P 26.336 14.944 13.536 {cg2 val 9} 27.54 15.796 13.117
+{ca val 23} P 9.67 15.232 .157 {cb val 23} 11.153 15.505 -.104
+{cg1 val 23} 11.506 15.2 -1.554
+{cb val 23} P 11.153 15.505 -.104 {cg2 val 23} 11.43 16.974 .18
+{ca val 30} P 1.817 16.156 -6.362 {cb val 30} 2.757 17.322 -6.056
+{cg1 val 30} 3.265 17.998 -7.32
+{cb val 30} P 2.757 17.322 -6.056 {cg2 val 30} 2.024 18.36 -5.224
+@vectorlist {e,g sc} color=sky
+{ca arg 1} P 38.127 14.684 15.695 {cb arg 1} 39.474 14.7 15.01
+{cg arg 1} 40.613 14.837 16.017
+{cd arg 1} 40.603 16.12 16.852
+{ne arg 1} 40.475 17.405 16.157
+{cz arg 1} 40.623 17.72 14.874
+{nh1 arg 1} 40.45 18.986 14.516
+{cz arg 1} P 40.623 17.72 14.874 {nh2 arg 1} 40.95 16.805 13.947
+{ca glu 6} P 32.395 20.303 12.225 {cb glu 6} 33.53 21.306 12.328
+{cg glu 6} 33.764 21.673 13.808
+{cd glu 6} 34.96 22.544 14.106
+{oe1 glu 6} 35.762 22.895 13.268
+{cd glu 6} P 34.96 22.544 14.106 {oe2 glu 6} 35.036 22.89 15.368
+{ca lys 8} P 29.714 16.773 9.066 {cb lys 8} 29.793 15.666 10.055
+{cg lys 8} 28.684 14.726 9.758
+{cd lys 8} 29.11 13.708 8.745
+{ce lys 8} 27.965 12.797 8.393
+{nz lys 8} 27.772 12.684 6.944
+{ca leu 13} P 22.953 21.628 7.228 {cb leu 13} 23.716 22.736 7.946
+{cg leu 13} 22.928 23.994 7.907
+{cd1 leu 13} 21.708 23.797 8.794
+{cg leu 13} P 22.928 23.994 7.907 {cd2 leu 13} 23.81 25.215 8.21
+{ca lys 15} P 21.673 18.905 2.595 {cb lys 15} 21.79 17.483 3.008
+{cg lys 15} 23.038 16.816 2.568
+{cd lys 15} 22.765 15.344 2.585
+{ce lys 15} 23.758 14.586 3.423
+{nz lys 15} 23.747 13.146 3.13
+{ca glu 20} P 13.734 22.442 2.62 {cb glu 20} 14.172 23.41 3.73
+{cg glu 20} 14.123 22.844 5.175
+{cd glu 20} 14.912 23.638 6.227
+{oe1 glu 20} 14.944 24.867 6.317
+{cd glu 20} P 14.912 23.638 6.227 {oe2 glu 20} 15.543 22.856 7.072
+{ca glu 22} P 12.464 21.235 -2.495 {cb glu 22} 12.98 19.798 -2.45
+{cg glu 22} 14.167 19.59 -3.386
+{cd glu 22} 13.732 19.647 -4.82
+{oe1 glu 22} 13.137 18.715 -5.31
+{cd glu 22} P 13.732 19.647 -4.82 {oe2 glu 22} 14.023 20.778 -5.467
+{ca lys 27} P 4.334 23.132 -1.617 {cb lys 27} 4.805 23.734 -.3
+{cg lys 27} 4.842 22.606 .72
+{cd lys 27} 4.832 22.957 2.193
+{ce lys 27} 4.752 21.638 2.957
+{nz lys 27} 4.815 21.72 4.424
+{ca leu 29} P 2.917 22.842 -6.655 {cb leu 29} 3.6 21.478 -6.794
+{cg leu 29} 4.85 21.47 -7.638
+{cd1 leu 29} 4.88 20.21 -8.47
+{cg leu 29} P 4.85 21.47 -7.638 {cd2 leu 29} 4.944 22.693 -8.533
+{ca arg 1} P 32.954 20.476 22.253 {cb arg 1} 33.484 20.438 23.69
+{cg arg 1} 32.988 19.262 24.48
+{cd arg 1} 31.497 19.365 24.41
+{ne arg 1} 30.73 18.684 25.417
+{cz arg 1} 29.9 19.248 26.292
+{nh1 arg 1} 29.726 20.57 26.46
+{cz arg 1} P 29.9 19.248 26.292 {nh2 arg 1} 29.24 18.42 27.073
+{ca glu 6} P 28.047 14.698 17.988 {cb glu 6} 28.596 13.52 18.826
+{cg glu 6} 30.132 13.372 18.716
+{cd glu 6} 30.73 12.584 19.86
+{oe1 glu 6} 30.067 12.113 20.764
+{cd glu 6} P 30.73 12.584 19.86 {oe2 glu 6} 32.016 12.382 19.742
+{ca lys 8} P 24.16 18.326 16.627 {cb lys 8} 25.208 19.411 16.453
+{cg lys 8} 24.875 20.453 15.448
+{cd lys 8} 23.607 21.098 15.875
+{ce lys 8} 23.57 22.52 15.433
+{nz lys 8} 22.612 23.272 16.228
+{ca leu 13} P 20.506 13.546 10.735 {cb leu 13} 21.36 12.378 11.302
+{cg leu 13} 21.198 11.12 10.452
+{cd1 leu 13} 21.59 11.418 8.997
+{cg leu 13} P 21.198 11.12 10.452 {cd2 leu 13} 21.886 9.878 11.052
+{ca lys 15} P 15.768 16.242 10.722 {cb lys 15} 16.472 17.52 10.958
+{cg lys 15} 15.594 18.56 10.372
+{cd lys 15} 15.965 19.924 10.847
+{ce lys 15} 15.38 20.966 9.92
+{nz lys 15} 14.91 22.17 10.62
+{ca glu 20} P 13.32 13.222 2.974 {cb glu 20} 14.365 12.12 3.203
+{cg glu 20} 15.78 12.685 3.263
+{cd glu 20} 16.387 12.59 1.915
+{oe1 glu 20} 15.69 12.585 .902
+{cd glu 20} P 16.387 12.59 1.915 {oe2 glu 20} 17.703 12.458 1.957
+{ca glu 22} P 8.192 14.685 3.595 {cb glu 22} 8.55 15.985 4.356
+{cg glu 22} 7.565 17.187 4.184
+{cd glu 22} 8.016 18.4 5.
+{oe1 glu 22} 8.942 18.366 5.777
+{cd glu 22} P 8.016 18.41 5. {oe2 glu 22} 7.337 19.528 4.817
+{ca lys 27} P 6.086 14.333 -4.63 {cb lys 27} 7.445 13.675 -4.847
+{cg lys 27} 8.562 14.638 -5.223
+{cd lys 27} 9.948 14. -5.2
+{ce lys 27} 10.793 14.34 -6.426
+{nz lys 27} 11.577 15.578 -6.283
+{ca leu 29} P .8 13.434 -3.964 {cb leu 29} .692 14.17 -2.63
+{cg leu 29} -.5 15.08 -2.588
+{cd1 leu 29} -1.573 14.266 -1.91
+{cg leu 29} P -.5 15.081 -2.588 {cd2 leu 29} -.185 16.36 -1.8
+@group dominant off {heptad lbl}
+@labellist {hep lbl} color=green
+{ a} 27.76 20.28 12.
+{ b} 29.54 22.47 7.41
+{ c} 28.09 17.82 5.03
+{ d} 23.9 17.35 8.3
+{ e} 23.72 22.74 7.95
+{ f} 25.05 21.98 3.015
+{ g} 21.79 17.48 3.01
+
+@kinemage 3
+@caption
+Leu zipper - closeup of residues 14-28 showing a Leu layer (orange) a Val layer (gold) and 3 Glu-Lys salt links (skyblue with red O dots).
+@onewidth
+@matrix 
+-.390944 .449593 -.803138 .70393 .708228 .05381 .592997 -.544315 -.593359 
+@group {Calpha}
+@vectorlist {A ca} color= white 
+{ca ser 14} P 23.635 22.12 3.513
+{ca lys 15} 21.673 18.905 2.595
+{ca asn 16} 18.92 20.03 4.916
+{ca tyr 17} 18.583 23.458 3.27
+{ca his 18} 18.464 21.654 -.143
+{ca leu 19} 15.562 19.515 1.148
+{ca glu 20} 13.734 22.442 2.62
+{ca asn 21} 14.082 24.25 -.792
+{ca glu 22} 12.464 21.235 -2.495
+{ca val 23} 9.567 21.098 .055
+{ca ala 24} 8.696 24.74 -.647
+{ca arg 25} 8.757 24.218 -4.31
+{ca leu 26} 6.58 21.183 -3.91
+{ca lys 27} 4.334 23.132 -1.617
+{ca lys 28} 3.872 25.752 -4.34
+@vectorlist {B ca} color=yellowtint
+{ca ser 14} P 16.977 13.025 12.308
+{ca lys 15} 15.768 16.242 10.722
+{ca asn 16} 17.148 15.287 7.314
+{ca tyr 17} 15.212 11.918 7.396
+{ca his 18} 12.044 13.664 8.32
+{ca leu 19} 12.542 16.087 5.334
+{ca glu 20} 13.32 13.222 2.974
+{ca asn 21} 10.096 11.435 4.006
+{ca glu 22} 8.192 14.685 3.595
+{ca val 23} 9.67 15.232 .157
+{ca ala 24} 8.7 11.725 -.835
+{ca arg 25} 5.052 12.23 .462
+{ca leu 26} 4.613 15.62 -1.37
+{ca lys 27} 6.086 14.333 -4.63
+{ca lys 28} 3.73 11.297 -4.703
+@group {side chains}
+@vectorlist {d: Leu} color=orange
+{ca leu 19} P 15.562 19.515 1.148 {cb leu 19} 15.57 18.356 2.134
+{cg leu 19} 16.384 17.163 1.675
+{cd1 leu 19} 16.71 16.315 2.883
+{cg leu 19} P 16.384 17.163 1.675 {cd2 leu 19} 15.594 16.277 .73
+{ca leu 26} P 6.58 21.183 -3.91 {cb leu 26} 6.845 19.727 -3.578
+{cg leu 26} 7.913 19.102 -4.402
+{cd1 leu 26} 8.753 18.277 -3.443
+{cg leu 26} P 7.913 19.102 -4.402 {cd2 leu 26} 7.178 18.174 -5.34
+{ca leu 19} P 12.542 16.087 5.334 {cb leu 19} 13.622 17.152 5.14
+{cg leu 19} 13.5 18.332 6.097
+{cd1 leu 19} 14.723 19.256 5.994
+{cg leu 19} P 13.5 18.332 6.097 {cd2 leu 19} 12.203 19.1 5.877
+{ca leu 26} P 4.613 15.62 -1.37 {cb leu 26} 5.357 16.95 -1.034
+{cg leu 26} 4.935 17.73 .23
+{cd1 leu 26} 5.716 19.032 .37
+{cg leu 26} P 4.935 17.73 .23 {cd2 leu 26} 3.495 18.16 0.132
+@vectorlist {Asn 16} color=hotpink
+{ca asn 16} P 17.148 15.287 7.314 {cb asn 16} 18.628 14.868 7.155
+{cg asn 16} 19.12 14.552 5.75
+{od1 asn 16} 19.236 13.376 5.377
+{cg asn 16} P 19.12 14.552 5.75 {nd2 asn 16} 19.58 15.576 5.036
+{ca asn 16} P 18.92 20.03 4.916 {cb asn 16} 18.758 20.06 6.426
+{cg asn 16} 18.773 18.704 7.105
+{od1 asn 16} 18.912 17.604 6.512
+{cg asn 16} P 18.773 18.704 7.105 {nd2 asn 16} 18.717 18.82 8.413
+@vectorlist {a: Val} color=gold
+{ca val 23} P 9.567 21.098 0.055 {cb val 23} 9.673 20.85 1.6
+{cg1 val 23} 8.345 21.088 2.316
+{cb val 23} P 9.673 20.85 1.6 {cg2 val 23} 10.167 19.442 1.954
+{ca val 23} P 9.67 15.232 .157 {cb val 23} 11.153 15.505 -.104
+{cg1 val 23} 11.506 15.2 -1.554
+{cb val 23} P 11.153 15.505 -.104 {cg2 val 23} 11.43 16.974 .18
+@vectorlist {e,g sc} color=sky
+{ca lys 15} P 21.673 18.905 2.595 {cb lys 15} 21.79 17.483 3.008
+{cg lys 15} 23.038 16.816 2.568
+{cd lys 15} 22.765 15.344 2.585
+{ce lys 15} 23.758 14.586 3.423
+{nz lys 15} 23.747 13.146 3.13
+{ca glu 20} P 13.734 22.442 2.62 {cb glu 20} 14.172 23.41 3.73
+{cg glu 20} 14.123 22.844 5.175
+{cd glu 20} 14.912 23.638 6.227
+{oe1 glu 20} 14.944 24.867 6.317
+{cd glu 20} P 14.912 23.638 6.227 {oe2 glu 20} 15.543 22.856 7.072
+{ca glu 22} P 12.464 21.235 -2.495 {cb glu 22} 12.98 19.798 -2.45
+{cg glu 22} 14.167 19.59 -3.386
+{cd glu 22} 13.732 19.647 -4.82
+{oe1 glu 22} 13.137 18.715 -5.31
+{cd glu 22} P 13.732 19.647 -4.82 {oe2 glu 22} 14.023 20.778 -5.467
+{ca lys 27} P 4.334 23.132 -1.617 {cb lys 27} 4.805 23.734 -.3
+{cg lys 27} 4.842 22.606 .72
+{cd lys 27} 4.832 22.957 2.193
+{ce lys 27} 4.752 21.638 2.957
+{nz lys 27} 4.815 21.72 4.424
+{ca lys 15} P 15.768 16.242 10.722 {cb lys 15} 16.472 17.52 10.958
+{cg lys 15} 15.594 18.56 10.372
+{cd lys 15} 15.965 19.924 10.847
+{ce lys 15} 15.38 20.966 9.92
+{nz lys 15} 14.91 22.17 10.62
+{ca glu 20} P 13.32 13.222 2.974 {cb glu 20} 14.365 12.12 3.203
+{cg glu 20} 15.78 12.685 3.263
+{cd glu 20} 16.387 12.59 1.915
+{oe1 glu 20} 15.69 12.585 .902
+{cd glu 20} P 16.387 12.59 1.915 {oe2 glu 20} 17.703 12.458 1.957
+{ca glu 22} P 8.192 14.685 3.595 {cb glu 22} 8.549 15.985 4.356
+{cg glu 22} 7.565 17.187 4.184
+{cd glu 22} 8.016 18.41 5.
+{oe1 glu 22} 8.942 18.366 5.777
+{cd glu 22} P 8.016 18.41 5. {oe2 glu 22} 7.337 19.528 4.817
+{ca lys 27} P 6.086 14.333 -4.63 {cb lys 27} 7.445 13.675 -4.847
+{cg lys 27} 8.562 14.638 -5.223
+{cd lys 27} 9.948 14. -5.2
+{ce lys 27} 10.793 14.34 -6.426
+{nz lys 27} 11.577 15.578 -6.283
+@group {salt links} dominant
+@vector {Hbonds} color=purple
+{oe2 glu A 20} P 15.416 22.72 7.78
+{nz lys B 15} 15.037 22.306 9.91
+{oe2 glu B 22} P 6.833 19.967 4.738
+{nz lys A 27} 5.319 21.282 4.503
+{oe1 glu A 22} P 12.825 18.088 -5.504
+{nz lys B 27} 11.89 16.205 -6.088
+@dotlist {O dots} color=red
+{oe1 glu 20} 14.944 24.867 6.317
+{oe2 glu 20} 15.543 22.856 7.072
+{oe1 glu 22} 13.137 18.715 -5.31
+{oe2 glu 22} 14.023 20.778 -5.467
+{oe1 glu 22} 8.942 18.366 5.777
+{oe2 glu 22} 7.337 19.528 4.817
+{oe1 glu 20} 15.69 12.585 0.902
+{oe2 glu 20} 17.703 12.458 1.957
+{oe1 glu 22} 8.942 18.366 5.777
+{oe2 glu 22} 7.337 19.528 4.817
+@dotlist {N dots} color=blue
+{nz lys 15} 23.747 13.146 3.13
+{nz lys A 27} 4.815 21.721 4.424
+{nz lys B 15} 14.91 22.17 10.62
+{nz lys B 27} 11.577 15.578 -6.283
+
+@kinemage 4
+@caption
+GCN4 Leu zipper - interactions of the two non-equivalent Asn 16 side chains near the center of the coiled-coil.  H-bonds are shown in purple between the two Asn sidechains and to a backbone CO group.
+@onewidth
+@matrix 
+.165936 .566265 .807347 -.956371 .292038 -.008267 -.240457 -.770751 .59002
+@group {main ch}
+@vector {mc A} color=white
+{ca glu 11} P 27.355 19.15 5.237 {c glu 11} 25.92 18.827 5.43
+{o glu 11} 25.23 18.837 4.43
+{c glu 11} P 25.92 18.827 5.43 {n leu 12} 25.516 18.443 6.673
+{ca leu 12} 24.14 18.084 6.963
+{c leu 12} 23.28 19.28 6.875
+{o leu 12} 22.186 19.19 6.384
+{c leu 12} P 23.28 19.279 6.875 {n leu 13} 23.765 20.415 7.323
+{ca leu 13} 22.953 21.628 7.228
+{c leu 13} 22.604 22.01 5.74
+{o leu 13} 21.47 22.358 5.332
+{c leu 13} P 22.604 22.01 5.74 {n ser 14} 23.646 21.917 4.934
+{ca ser 14} 23.635 22.12 3.513
+{c ser 14} 22.646 21.127 2.832
+{o ser 14} 21.785 21.53 2.057
+{c ser 14} P 22.646 21.127 2.832 {n lys 15} 22.683 19.813 3.16
+{ca lys 15} 21.673 18.905 2.595
+{c lys 15} 20.294 19.295 3.08
+{o lys 15} 19.328 19.265 2.308
+{c lys 15} P 20.294 19.295 3.08 {n asn 16} 20.197 19.618 4.38
+{ca asn 16} 18.92 20.03 4.916
+{c asn 16} 18.31 21.24 4.222
+{o asn 16} 17.156 21.194 3.87
+{c asn 16} P 18.31 21.24 4.222 {n tyr 17} 19.06 22.3 4.002
+{ca tyr 17} 18.583 23.458 3.27
+{c tyr 17} 18.128 23.043 1.844
+{o tyr 17} 17.125 23.51 1.347
+{c tyr 17} P 18.128 23.043 1.844 {n his 18} 18.86 22.13 1.184
+{ca his 18} 18.464 21.654 -.143
+{c his 18} 17.085 21.02 -.057
+{o his 18} 16.234 21.26 -.906
+{c his 18} P 17.085 21.02 -.057 {n leu 19} 16.864 20.173 .967
+{ca leu 19} 15.562 19.515 1.148
+{c leu 19} 14.448 20.47 1.537
+{o leu 19} 13.294 20.298 1.17
+{c leu 19} P 14.448 20.47 1.537 {n glu 20} 14.762 21.483 2.3
+{ca glu 20} 13.734 22.442 2.62
+@vector {mc B} color=yellowtint
+{ca glu 11} P 19.857 16.105 15.505
+{c glu 11} 19.6 16.444 14.053
+{o glu 11} 18.436 16.384 13.672
+{c glu 11} P 19.6 16.444 14.053 {n leu 12} 20.66 16.824 13.266
+{ca leu 12} 20.537 17.187 11.822
+{c leu 12} 20.136 15.963 10.996
+{o leu 12} 19.286 16.008 10.072
+{c leu 12} P 20.136 15.963 10.996 {n leu 13} 20.77 14.84 11.367
+{ca leu 13} 20.506 13.546 10.735
+{c leu 13} 19.01 13.192 10.77
+{o leu 13} 18.44 12.85 9.725
+{c leu 13} P 19.01 13.192 10.77 {n ser 14} 18.4 13.293 11.993
+{ca ser 14} 16.977 13.025 12.308
+{c ser 14} 16.04 13.944 11.486
+{o ser 14} 15.068 13.552 10.836
+{c ser 14} P 16.04 13.944 11.486 {n lys 15} 16.418 15.203 11.477
+{ca lys 15} 15.768 16.242 10.722
+{c lys 15} 15.793 15.973 9.22
+{o lys 15} 14.795 16.034 8.54
+{c lys 15} P 15.793 15.973 9.22 {n asn 16} 16.958 15.654 8.708
+{ca asn 16} 17.148 15.287 7.314
+{c asn 16} 16.213 14.127 6.887
+{o asn 16} 15.625 14.173 5.818
+{c asn 16} P 16.213 14.127 6.887 {n tyr 17} 16.070 13.075 7.714
+{ca tyr 17} 15.212 11.918 7.396
+{c tyr 17} 13.743 12.32 7.363
+{o tyr 17} 12.948 11.905 6.514
+{c tyr 17} P 13.743 12.32 7.363 {n his 18} 13.384 13.163 8.307
+{ca his 18} 12.044 13.664 8.32
+{c his 18} 11.755 14.44 6.996
+{o his 18} 10.705 14.282 6.365
+{c his 18} P 11.755 14.44 6.996 {n leu 19} 12.695 15.308 6.568
+{ca leu 19} 12.542 16.087 5.334
+{c leu 19} 12.51 15.174 4.125
+{o leu 19} 11.71 15.347 3.246
+{c leu 19} P 12.51 15.174 4.125 {n glu 20} 13.354 14.165 4.083
+{ca glu 20} 13.32 13.222 2.974
+@group {Asn 16}
+@vectorlist {Asn sc} color=pink
+{ca asn A16} P 18.92 20.03 4.916 {cb asn A16} 18.758 20.06 6.426
+{cg asn A16} 18.773 18.704 7.105
+{od1 asn A16} 18.912 17.604 6.512
+{cg asn A16} P 18.773 18.704 7.105 {nd2 asn A16} 18.717 18.82 8.413
+{ca asn B16} P 17.148 15.287 7.314 {cb asn B16} 18.628 14.868 7.155
+{cg asn B16} 19.12 14.552 5.75
+{od1 asn B16} 19.236 13.376 5.377
+{cg asn B16} P 19.12 14.552 5.75 {nd2 asn B16} 19.58 15.576 5.036
+@group {Hbonds}
+@vector {Asn Hb} color=purple
+{Hb} P 19.046 17.198 6.217 {Hb} 19.443 15.982 5.33
+{Hb} P 18.83 18.258 8.745 {Hb} <o L12>19.172 16.57 9.74
+@subgroup dominant {atom dots}
+@dotlist {O dots} color=red
+{od1 asn A16} P 18.81 17.604 6.51 19.01 17.604 6.51
+P 18.91 17.504 6.51 18.91 17.704 6.51
+P 18.91 17.604 6.41 18.91 17.604 6.61
+{od1 asn B16} P 19.136 13.376 5.377 19.336 13.376 5.377
+P 19.236 13.276 5.377 19.236 13.476 5.377
+P 19.236 13.376 5.277 19.236 13.376 5.477
+{o leu 12} P 19.186 16.01 10.07 19.386 16.01 10.07
+P 19.286 15.91 10.07 19.286 16.11 10.07
+P 19.286 16.01 9.97 19.286 16.01 10.17
+@dotlist {N dots} color=sky
+{nd2 asn A16} P 18.617 18.82 8.413 18.817 18.82 8.413
+P 18.717 18.72 8.413 18.717 18.92 8.413
+P 18.717 18.82 8.403 18.717 18.82 8.423
+{nd2 asn B16} P 19.48 15.576 5.036 19.68 15.576 5.036
+P 19.58 15.476 5.036 19.58 15.676 5.036
+P 19.58 15.576 4.936 19.58 15.576 5.136
